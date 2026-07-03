@@ -257,7 +257,7 @@ export default function EscortsSection() {
                     <div className="grid grid-cols-2 gap-3">
                       <a
                         id="modal-call-btn"
-                        href="tel:9996265679"
+                        href="tel:000000000"
                         className="flex items-center justify-center gap-2 bg-gradient-to-r from-luxury-gold to-yellow-600 text-black font-sans font-black text-[10px] uppercase tracking-widest py-3 px-4 rounded-xl shadow-md transition-all duration-200 active:scale-95"
                       >
                         <Phone className="w-4 h-4 fill-black" />
@@ -266,7 +266,7 @@ export default function EscortsSection() {
 
                       <a
                         id="modal-wa-btn"
-                        href={`https://wa.me/919996265679?text=Hi%20there%2C%20I%20am%20interested%20in%20booking%20or%20knowing%20availability%2520for%20companion%20"${encodeURIComponent(selectedCompanion.name)}%20(${selectedCompanion.age}%29"%2520for%20my%2520meeting%20in%20Dehradun.`}
+                        href={`https://wa.me/91000000000?text=Hi%20there%2C%20I%20am%20interested%20in%20booking%20or%20knowing%20availability%2520for%20companion%20"${encodeURIComponent(selectedCompanion.name)}%20(${selectedCompanion.age}%29"%2520for%20my%2520meeting%20in%20Dehradun.`}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="flex items-center justify-center gap-2 bg-[#220810]/75 hover:bg-[#220810] text-white font-sans font-black text-[10px] uppercase tracking-widest py-3 px-4 rounded-xl border border-luxury-gold/20 hover:border-luxury-gold/60 transition-all active:scale-95 duration-205"

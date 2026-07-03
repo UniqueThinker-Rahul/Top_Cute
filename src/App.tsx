@@ -11,6 +11,7 @@ import Escorts from './components/Escorts';
 import ServiceDetail from './components/ServiceDetail';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import FAQAccordion from './components/FAQAccordion'; // 👈 FAQ यहाँ इम्पोर्ट किया गया है
 
 // Location Components
 import Dehradun from './components/Dehradun';
@@ -45,27 +46,22 @@ export default function App() {
       if (e.key === 'F12') {
         e.preventDefault();
       }
-
       // Block Ctrl+Shift+I / Cmd+Option+I (Inspect Element)
       if ((e.ctrlKey || e.metaKey) && e.shiftKey && (e.key === 'I' || e.key === 'i')) {
         e.preventDefault();
       }
-
       // Block Ctrl+Shift+J / Cmd+Option+J (Console)
       if ((e.ctrlKey || e.metaKey) && e.shiftKey && (e.key === 'J' || e.key === 'j')) {
         e.preventDefault();
       }
-
       // Block Ctrl+Shift+C / Cmd+Option+C (Inspect Element selection mode)
       if ((e.ctrlKey || e.metaKey) && e.shiftKey && (e.key === 'C' || e.key === 'c')) {
         e.preventDefault();
       }
-
       // Block Ctrl+U / Cmd+U (View Source)
       if ((e.ctrlKey || e.metaKey) && (e.key === 'U' || e.key === 'u')) {
         e.preventDefault();
       }
-
       // Block Ctrl+C / Cmd+C (Copy)
       if ((e.ctrlKey || e.metaKey) && (e.key === 'C' || e.key === 'c')) {
         e.preventDefault();
@@ -140,6 +136,10 @@ export default function App() {
                 <div id="main-services"><Services /></div>
                 <div id="main-categories"><Categories /></div>
                 <div id="main-gallery"><Escorts /></div>
+                
+                {/* 👈 FAQ Section Moved Here (Last Bottom, above Contact) */}
+                <FAQAccordion /> 
+                
                 <div id="main-contact"><Contact /></div>
               </div>
             } />
@@ -173,7 +173,7 @@ export default function App() {
               </motion.button>
 
               <motion.a
-                href="tel:9996265679"
+                href="tel:000000000"
                 initial={{ scale: 0, opacity: 0 }}
                 animate={{ scale: 1, opacity: 1 }}
                 exit={{ scale: 0, opacity: 0 }}
@@ -183,7 +183,7 @@ export default function App() {
               </motion.a>
 
               <motion.a
-                href="https://wa.me/919996265679"
+                href="https://wa.me/91000000000"
                 target="_blank"
                 rel="noopener noreferrer"
                 initial={{ scale: 0, opacity: 0 }}
@@ -199,11 +199,11 @@ export default function App() {
 
         {/* Mobile Bottom Bar */}
         <div className="sm:hidden fixed bottom-0 left-0 right-0 z-40 bg-[#0a0d14]/95 backdrop-blur-md border-t border-luxury-gold/30 grid grid-cols-2 shadow-[0_-4px_20px_rgba(0,0,0,0.5)]">
-          <a href="tel:9996265679" className="flex items-center justify-center gap-2 py-4 bg-gradient-to-r from-luxury-gold to-rose-500 text-white font-sans font-black text-xs uppercase tracking-widest">
+          <a href="tel:000000000" className="flex items-center justify-center gap-2 py-4 bg-gradient-to-r from-luxury-gold to-rose-500 text-white font-sans font-black text-xs uppercase tracking-widest">
             <Phone className="w-4 h-4 fill-white text-white" />
             <span>Call Hostess</span>
           </a>
-          <a href="https://wa.me/919996265679" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 py-4 bg-emerald-600 text-white font-sans font-black text-xs uppercase tracking-widest">
+          <a href="https://wa.me/91000000000" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 py-4 bg-emerald-600 text-white font-sans font-black text-xs uppercase tracking-widest">
             <MessageCircle className="w-4 h-4 fill-white" />
             <span>WhatsApp</span>
           </a>

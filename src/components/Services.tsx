@@ -108,7 +108,7 @@ export default function Services() {
 
                     <a
                       id={`service-book-${idx}`}
-                      href={`https://wa.me/919996265679?text=Hi%2C%20I%20am%20interested%20in%20the%20"${encodeURIComponent(service.title)}"%20service%20in%20Dehradun.`}
+                      href={`https://wa.me/91000000000?text=Hi%2C%20I%20am%20interested%20in%20the%20"${encodeURIComponent(service.title)}"%20service%20in%20Dehradun.`}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="inline-flex items-center gap-2 bg-gradient-to-r from-luxury-gold to-yellow-600 hover:brightness-110 text-black font-sans text-xs font-black tracking-widest uppercase py-3 px-5 rounded-lg transition-all duration-200"

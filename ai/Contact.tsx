@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Phone, MessageCircle, Mail, Clock, ShieldAlert, Sparkles, CheckCircle2, Send } from 'lucide-react';
 
@@ -16,7 +16,7 @@ export default function Contact() {
     setIsSuccessToast(true);
     setTimeout(() => {
       const customWAText = `Hi! I sent an encrypted query through the secure Contact form.\nAlias/Name: ${alias}\nEmail: ${secureEmail || 'Anonymous'}\nSubject: ${subject}\nMessage: ${message}`;
-      const waUrl = `https://wa.me/919996265679?text=${encodeURIComponent(customWAText)}`;
+      const waUrl = `https://wa.me/91000000000?text=${encodeURIComponent(customWAText)}`;
       window.open(waUrl, '_blank', 'noopener,noreferrer');
       
       setAlias(''); setSecureEmail(''); setMessage(''); setIsSuccessToast(false);
@@ -34,8 +34,8 @@ export default function Contact() {
         
         <div className="relative z-10 text-center max-w-4xl mx-auto px-4 space-y-3">
           <span className="font-sans text-[10px] font-black tracking-[0.3em] text-luxury-gold uppercase block">SECURE ACCESS DEHRADUN</span>
-          <h1 className="font-serif text-3xl sm:text-5xl font-black text-white leading-tight">Contact Us</h1>
-          <p className="font-sans text-xs text-zinc-400 font-light max-w-lg mx-auto">If you are looking for a trusted escort service in Dehradun, we can help. We focus on being professional, keeping things private, and making sure you are happy.</p>
+          <h1 className="font-serif text-3xl sm:text-5xl font-black text-white leading-tight">Connect With Dispatch</h1>
+          <p className="font-sans text-xs text-zinc-400 font-light max-w-lg mx-auto">Available 24 hours a day, 7 days a week. Our elite agency handles client requests with meticulous attention to detail and total client shielding.</p>
         </div>
       </section>
 
@@ -48,18 +48,18 @@ export default function Contact() {
                 <span className="font-sans text-[10px] font-bold tracking-[0.2em] text-luxury-gold uppercase block">CONFIDENTIAL DISPATCH</span>
                 <h2 className="font-serif text-3xl sm:text-4.5xl font-extrabold text-white leading-tight">Discreet & Secure Communication</h2>
                 <div className="h-[2px] w-14 bg-luxury-gold rounded-full" />
-                <p className="font-sans text-sm text-zinc-400 font-light leading-relaxed">Contact us today to book an appointment or to learn more about our escort services. We look forward to providing you with a comfortable, discreet, and memorable experience.</p>
+                <p className="font-sans text-sm text-zinc-400 font-light leading-relaxed">Your identity remains unrecorded. All digital inquiries, messages, and calls are permanently purged and routed through high-grade private protocols. Zero traces are ever stored.</p>
               </div>
 
               <div className="space-y-6 pt-4">
                 <div className="flex items-start gap-4">
                   <div className="w-11 h-11 bg-luxury-card/60 border border-luxury-gold/30 rounded-xl flex items-center justify-center shrink-0 text-luxury-gold"><Phone className="w-5 h-5 fill-luxury-gold/10" /></div>
-                  <div><h4 className="font-serif text-sm font-black uppercase tracking-wider text-luxury-gold">Direct Hotlines</h4><a href="tel:+919996265679" className="font-sans text-lg font-bold text-white hover:text-luxury-gold transition-colors block mt-0.5">+91-9996265679</a></div>
+                  <div><h4 className="font-serif text-sm font-black uppercase tracking-wider text-luxury-gold">Direct Hotlines</h4><a href="tel:+91000000000" className="font-sans text-lg font-bold text-white hover:text-luxury-gold transition-colors block mt-0.5">+91-000000000</a></div>
                 </div>
 
                 <div className="flex items-start gap-4">
                   <div className="w-11 h-11 bg-luxury-card/60 border border-luxury-gold/30 rounded-xl flex items-center justify-center shrink-0 text-luxury-gold"><MessageCircle className="w-5 h-5 fill-luxury-gold/10" /></div>
-                  <div><h4 className="font-serif text-sm font-black uppercase tracking-wider text-luxury-gold">Confidential WhatsApp</h4><a href="https://wa.me/919996265679" target="_blank" rel="noopener noreferrer" className="font-sans text-lg font-bold text-white hover:text-luxury-gold transition-colors block mt-0.5">Instant Booking WhatsApp</a></div>
+                  <div><h4 className="font-serif text-sm font-black uppercase tracking-wider text-luxury-gold">Confidential WhatsApp</h4><a href="https://wa.me/91000000000" target="_blank" rel="noopener noreferrer" className="font-sans text-lg font-bold text-white hover:text-luxury-gold transition-colors block mt-0.5">Instant Booking WhatsApp</a></div>
                 </div>
 
                 <div className="flex items-start gap-4">

@@ -82,7 +82,7 @@ export default function Hero() {
         >
           <a
             id="hero-call-cta"
-            href="tel:9996265679"
+            href="tel:000000000"
             className="flex items-center justify-center gap-3 w-full sm:w-auto min-w-[200px] bg-gradient-to-r from-luxury-gold to-yellow-600 text-black font-sans font-black text-xs uppercase tracking-widest py-4 px-8 rounded-full shadow-xl shadow-luxury-gold/10 hover:shadow-luxury-gold/30 hover:-translate-y-0.5 transition-all duration-350"
           >
             <Phone className="w-5 h-5 fill-black" />
@@ -91,7 +91,7 @@ export default function Hero() {
 
           <a
             id="hero-whatsapp-cta"
-            href="https://wa.me/919996265679?text=Hi%2C%20I'm%20interested%20in%20booking%20a%20premium%20companion%20from%20Top%20Cute%20Girls%20in%20Dehradun.%20Please%20share%20the%20available%20roster."
+            href="https://wa.me/91000000000?text=Hi%2C%20I'm%20interested%20in%20booking%20a%20premium%20companion%20from%20Top%20Cute%20Girls%20in%20Dehradun.%20Please%20share%20the%20available%20roster."
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center justify-center gap-3 w-full sm:w-auto min-w-[200px] bg-[#220810]/60 backdrop-blur-md hover:bg-[#220810]/90 text-white font-sans font-black text-xs uppercase tracking-widest py-4 px-8 rounded-full border border-luxury-gold/20 hover:border-luxury-gold/50 shadow-lg hover:-translate-y-0.5 transition-all duration-350"

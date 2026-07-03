@@ -123,9 +123,9 @@
 //           </nav>
 
 //           <div className="hidden md:flex items-center">
-//             <a href="tel:9996265679" className="inline-flex items-center gap-2 bg-gradient-to-r from-luxury-gold to-rose-500 hover:brightness-110 font-sans text-xs font-black tracking-widest uppercase text-white py-3 px-6 rounded-full shadow-lg transition-all duration-300">
+//             <a href="tel:000000000" className="inline-flex items-center gap-2 bg-gradient-to-r from-luxury-gold to-rose-500 hover:brightness-110 font-sans text-xs font-black tracking-widest uppercase text-white py-3 px-6 rounded-full shadow-lg transition-all duration-300">
 //               <Phone className="w-4 h-4 fill-white text-white" />
-//               <span>+91-9996265679</span>
+//               <span>+91-000000000</span>
 //             </a>
 //           </div>
 
@@ -159,9 +159,9 @@
 //             </React.Fragment>
 //           ))}
 //           <div className="pt-4 px-4">
-//             <a href="tel:9996265679" className="flex items-center justify-center gap-2 w-full bg-gradient-to-r from-luxury-gold to-rose-500 font-sans text-xs font-black tracking-widest uppercase text-white py-3 px-6 rounded-full shadow-lg">
+//             <a href="tel:000000000" className="flex items-center justify-center gap-2 w-full bg-gradient-to-r from-luxury-gold to-rose-500 font-sans text-xs font-black tracking-widest uppercase text-white py-3 px-6 rounded-full shadow-lg">
 //               <Phone className="w-5 h-5 fill-white text-white" />
-//               <span>Call +91-9996265679</span>
+//               <span>Call +91-000000000</span>
 //             </a>
 //           </div>
 //         </div>
@@ -266,9 +266,9 @@ export default function Header() {
           </nav>
 
           <div className="hidden md:flex items-center">
-            <a href="tel:9996265679" className="inline-flex items-center gap-2 bg-gradient-to-r from-luxury-gold to-rose-500 hover:brightness-110 font-sans text-xs font-black tracking-widest uppercase text-white py-3 px-6 rounded-full shadow-lg transition-all duration-300">
+            <a href="tel:000000000" className="inline-flex items-center gap-2 bg-gradient-to-r from-luxury-gold to-rose-500 hover:brightness-110 font-sans text-xs font-black tracking-widest uppercase text-white py-3 px-6 rounded-full shadow-lg transition-all duration-300">
               <Phone className="w-4 h-4 fill-white text-white" />
-              <span>+91-9996265679</span>
+              <span>+91-000000000</span>
             </a>
           </div>
 
@@ -293,9 +293,9 @@ export default function Header() {
             </a>
           ))}
           <div className="pt-4 px-4">
-            <a href="tel:9996265679" className="flex items-center justify-center gap-2 w-full bg-gradient-to-r from-luxury-gold to-rose-500 font-sans text-xs font-black tracking-widest uppercase text-white py-3 px-6 rounded-full shadow-lg">
+            <a href="tel:000000000" className="flex items-center justify-center gap-2 w-full bg-gradient-to-r from-luxury-gold to-rose-500 font-sans text-xs font-black tracking-widest uppercase text-white py-3 px-6 rounded-full shadow-lg">
               <Phone className="w-5 h-5 fill-white text-white" />
-              <span>Call +91-9996265679</span>
+              <span>Call +91-000000000</span>
             </a>
           </div>
         </div>

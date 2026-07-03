@@ -53,11 +53,11 @@ export default function Footer() {
             <div className="pt-4 flex flex-col items-center justify-center gap-4">
               <a
                 id="footer-phone-dispatch-link"
-                href="tel:9996265679"
+                href="tel:000000000"
                 className="inline-flex items-center gap-3 bg-gradient-to-r from-luxury-gold to-rose-500 hover:brightness-110 text-white font-sans font-black text-xl sm:text-2xl py-4.5 px-8 sm:px-12 rounded-full shadow-lg hover:scale-102 transition-transform duration-300"
               >
                 <Phone className="w-6 h-6 fill-white text-white" />
-                <span>+91-9996265679</span>
+                <span>+91-000000000</span>
               </a>
               
               <p className="font-sans text-[11px] text-zinc-400 uppercase tracking-widest">

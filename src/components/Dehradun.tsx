@@ -86,7 +86,7 @@ export default function Dehradun() {
             className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4 pt-4 px-4 sm:px-0"
           >
             <a
-              href="tel:9996265679"
+              href="tel:000000000"
               className="flex items-center justify-center gap-2.5 w-full sm:w-auto min-w-[210px] bg-gradient-to-r from-luxury-gold to-yellow-600 hover:brightness-110 text-black font-sans font-black text-[11px] sm:text-xs uppercase tracking-widest py-4 px-8 rounded-full shadow-xl transition-all duration-300"
             >
               <Phone className="w-4 h-4 fill-black" />
@@ -230,8 +230,8 @@ export default function Dehradun() {
                   </div>
                 </div>
                 <div className="grid grid-cols-2 gap-3 mt-6">
-                  <a href="tel:9996265679" className="flex items-center justify-center gap-2 bg-luxury-gold text-black py-3 rounded-xl"><Phone className="w-4 h-4" /> Call</a>
-                  <a href={`https://wa.me/919996265679?text=Hi%20there%2C%20I%20want%20to%20book%20${selectedEscort.name}%20in%20Dehradun`} className="flex items-center justify-center gap-2 bg-[#220810] text-white py-3 rounded-xl border border-luxury-gold/25"><MessageCircle className="w-4 h-4 text-emerald-500" /> WhatsApp</a>
+                  <a href="tel:000000000" className="flex items-center justify-center gap-2 bg-luxury-gold text-black py-3 rounded-xl"><Phone className="w-4 h-4" /> Call</a>
+                  <a href={`https://wa.me/91000000000?text=Hi%20there%2C%20I%20want%20to%20book%20${selectedEscort.name}%20in%20Dehradun`} className="flex items-center justify-center gap-2 bg-[#220810] text-white py-3 rounded-xl border border-luxury-gold/25"><MessageCircle className="w-4 h-4 text-emerald-500" /> WhatsApp</a>
                 </div>
               </div>
             </motion.div>

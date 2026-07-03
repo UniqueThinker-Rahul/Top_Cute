@@ -1,19 +1,14 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
-import { ShieldCheck, Star, Sparkles, ChevronDown, HelpCircle, Phone, MessageCircle, X, Ruler, Languages } from 'lucide-react';
-import { escortsData, faqData, featuresData } from '../data';
+import { ShieldCheck, Star, Sparkles, Phone, MessageCircle, X, Ruler, Languages } from 'lucide-react';
+import { escortsData, featuresData } from '../data';
 import { EscortProfile } from '../types';
 
 export default function Home() {
-  const [activeFAQ, setActiveFAQ] = useState<string | null>(null);
   const [selectedEscort, setSelectedEscort] = useState<EscortProfile | null>(null);
 
   // Take exactly 4 profiles for the Featured Grid
   const featuredProfiles = escortsData.slice(0, 4);
-
-  const toggleFAQ = (id: string) => {
-    setActiveFAQ(activeFAQ === id ? null : id);
-  };
 
   const handleScrollToSection = (id: string) => {
     const el = document.getElementById(id);
@@ -69,7 +64,7 @@ export default function Home() {
             transition={{ duration: 0.6 }}
             className="space-y-4"
           >
-           <span className="font-sans text-[10px] sm:text-xs md:text-sm font-black tracking-[0.3em] text-white uppercase block animate-pulse drop-shadow-md">
+            <span className="font-sans text-[10px] sm:text-xs md:text-sm font-black tracking-[0.3em] text-white uppercase block animate-pulse drop-shadow-md">
               DEHRADUN'S PREMIER HOSTESS AGENCY
             </span>
             <h1 className="font-serif text-3xl sm:text-4.5xl md:text-6.5xl font-extrabold text-white leading-tight tracking-tight drop-shadow-lg">
@@ -97,7 +92,7 @@ export default function Home() {
           >
             <a
               id="hero-direct-booking"
-              href="tel:9996265679"
+              href="tel:000000000"
               className="flex items-center justify-center gap-2.5 w-full sm:w-auto min-w-[210px] bg-gradient-to-r from-luxury-gold to-yellow-600 hover:brightness-110 text-black font-sans font-black text-[11px] sm:text-xs uppercase tracking-widest py-4 px-8 rounded-full shadow-xl shadow-luxury-gold/10 hover:shadow-luxury-gold/30 hover:scale-102 transition-all duration-300"
             >
               <Phone className="w-4 h-4 fill-black" />
@@ -122,7 +117,7 @@ export default function Home() {
         className="py-20 sm:py-24 bg-zinc-50 text-zinc-900 border-y border-zinc-200 relative"
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-          
+
           <div className="lg:col-span-6 space-y-6">
             <span className="font-sans text-xs font-bold tracking-[0.25em] text-amber-700 uppercase block">
               DIGNIFIED LUXURY TOURS
@@ -132,16 +127,16 @@ export default function Home() {
               <span className="text-amber-600 italic">in Dehradun</span>
             </h2>
             <div className="h-1 w-20 bg-amber-500 rounded-full" />
-            
+
             <div className="font-sans text-sm sm:text-base text-zinc-700 font-light leading-relaxed space-y-4">
               <p>
-                Dehradun is home to pristine mountain scenery, exclusive hotels, and high-class retreats. 
-                Whether you are a busy businessman staying at a prime heritage resort or an elite traveler exploring the majestic 
+                Dehradun is home to pristine mountain scenery, exclusive hotels, and high-class retreats.
+                Whether you are a busy businessman staying at a prime heritage resort or an elite traveler exploring the majestic
                 foothills near Mussoorie, complete luxury remains incomplete without delightful, warm companionship.
               </p>
               <p>
-                As a premier companionship agency, we present unmatched models selected for their physical perfection, 
-                impeccable etiquette, and conversational proficiency. We handle every reservation request with pristine, absolute secrecy, 
+                As a premier companionship agency, we present unmatched models selected for their physical perfection,
+                impeccable etiquette, and conversational proficiency. We handle every reservation request with pristine, absolute secrecy,
                 ensuring your leisure session in Uttarakhand is exceptionally comfortable, fulfilling, and completely private.
               </p>
             </div>
@@ -180,7 +175,7 @@ export default function Home() {
       {/* 3. Featured Profiles Grid Section */}
       <section id="featured-escorts" className="py-20 sm:py-24 bg-luxury-bg border-b border-luxury-gold/10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          
+
           <div className="text-center max-w-2xl mx-auto mb-12 sm:mb-16 space-y-4">
             <span className="font-sans text-xs font-bold tracking-[0.3em] text-luxury-gold uppercase block">
               CURATED ESCORT ROSTER
@@ -212,7 +207,7 @@ export default function Home() {
                     className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500 filter sepia-[0.1]"
                     referrerPolicy="no-referrer"
                   />
-                  
+
                   <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center z-10">
                     <span className="font-sans text-xs font-black tracking-widest uppercase text-black bg-luxury-gold py-2.5 px-5 rounded-full shadow-lg transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
                       View Details
@@ -224,7 +219,7 @@ export default function Home() {
                   </div>
 
                   <div className="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-black/80 to-transparent z-10" />
-                  
+
                   <div className="absolute bottom-4 left-4 z-20 text-white">
                     <span className="font-serif text-xl font-bold text-white block drop-shadow-md">
                       {escort.name}, {escort.age}
@@ -255,10 +250,10 @@ export default function Home() {
       {/* 4. Features/Trust Section */}
       <section className="py-20 sm:py-24 bg-luxury-card border-b border-luxury-gold/10 relative overflow-hidden">
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-luxury-gold/[0.02] rounded-full filter blur-[150px] pointer-events-none" />
-        
+
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-12">
-            
+
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -316,71 +311,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 5. FAQ Accordion */}
-      <section id="faq" className="py-20 sm:py-24 bg-luxury-bg relative overflow-hidden">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-          
-          <div className="text-center space-y-4 mb-12 sm:mb-16">
-            <span className="font-sans text-xs font-bold tracking-[0.25em] text-luxury-gold uppercase block">
-              QUESTIONS & DISCRETION
-            </span>
-            <h2 className="font-serif text-3xl sm:text-4.5xl font-extrabold text-white">
-              Frequently Asked <span className="text-luxury-gold">Questions</span>
-            </h2>
-            <div className="h-[1px] w-16 bg-luxury-gold mx-auto" />
-            <p className="font-sans text-xs sm:text-sm text-zinc-400 font-light">
-              Familiarize yourself with our private outcall procedure, safety criteria, and hotel check-in details.
-            </p>
-          </div>
-
-          <div className="space-y-4">
-            {faqData.map((item, idx) => {
-              const isOpen = activeFAQ === item.id;
-              return (
-                <div
-                  key={item.id}
-                  id={`home-faq-item-${idx}`}
-                  className={`bg-luxury-card/60 backdrop-blur-md rounded-2xl border transition-all duration-300 overflow-hidden ${
-                    isOpen ? 'border-luxury-gold/40 shadow-xl shadow-luxury-gold/[0.03]' : 'border-luxury-gold/10 hover:border-luxury-gold/30'
-                  }`}
-                >
-                  <button
-                    onClick={() => toggleFAQ(item.id)}
-                    className="w-full flex items-center justify-between text-left p-5 sm:p-7 font-sans focus:outline-none focus-visible:ring-1 focus-visible:ring-luxury-gold group cursor-pointer"
-                  >
-                    <div className="flex items-start gap-4 pr-3">
-                      <HelpCircle className={`w-5 h-5 shrink-0 mt-0.5 transition-colors ${isOpen ? 'text-luxury-gold' : 'text-zinc-500'}`} />
-                      <span className="font-serif text-base sm:text-lg font-bold text-zinc-100 group-hover:text-luxury-gold transition-colors">
-                        {item.question}
-                      </span>
-                    </div>
-                    <div className={`w-8 h-8 rounded-full bg-[#300f19] flex items-center justify-center shrink-0 transition-all duration-300 ${isOpen ? 'rotate-180 bg-luxury-gold/15' : ''}`}>
-                      <ChevronDown className={`w-4 h-4 transition-colors ${isOpen ? 'text-luxury-gold' : 'text-zinc-400'}`} />
-                    </div>
-                  </button>
-
-                  <AnimatePresence initial={false}>
-                    {isOpen && (
-                      <motion.div
-                        initial={{ height: 0, opacity: 0 }}
-                        animate={{ height: 'auto', opacity: 1 }}
-                        exit={{ height: 0, opacity: 0 }}
-                        transition={{ duration: 0.25 }}
-                      >
-                        <div className="px-6 pb-6 sm:px-7 sm:pb-7 font-sans text-xs sm:text-sm text-zinc-300 leading-relaxed font-light border-t border-luxury-gold/10 pt-4">
-                          {item.answer}
-                        </div>
-                      </motion.div>
-                    )}
-                  </AnimatePresence>
-                </div>
-              );
-            })}
-          </div>
-
-        </div>
-      </section>
-
       {/* COMPANION DETAILED MODAL SHEET */}
       <AnimatePresence>
         {selectedEscort && (
@@ -392,7 +322,7 @@ export default function Home() {
               onClick={() => setSelectedEscort(null)}
               className="absolute inset-0 bg-black/85 backdrop-blur-sm"
             />
-            
+
             <motion.div
               initial={{ opacity: 0, scale: 0.95, y: 30 }}
               animate={{ opacity: 1, scale: 1, y: 0 }}
@@ -407,7 +337,7 @@ export default function Home() {
                   className="absolute inset-0 w-full h-full object-cover object-center filter sepia-[0.1]"
                   referrerPolicy="no-referrer"
                 />
-                
+
                 <button
                   onClick={() => setSelectedEscort(null)}
                   className="md:hidden absolute top-4 right-4 bg-black/60 text-white p-2.5 rounded-full border border-white/20"
@@ -475,10 +405,10 @@ export default function Home() {
 
                 <div className="space-y-3 pt-6 mt-6 border-t border-luxury-gold/10">
                   <p className="font-sans text-[9px] text-center text-zinc-400 uppercase tracking-widest">Book instantly with dispatch agent</p>
-                  
+
                   <div className="grid grid-cols-2 gap-3">
                     <a
-                      href="tel:9996265679"
+                      href="tel:000000000"
                       className="flex items-center justify-center gap-2 bg-gradient-to-r from-luxury-gold to-yellow-600 hover:brightness-105 text-black font-sans font-black text-[10px] uppercase tracking-widest py-3 rounded-xl transition-all duration-200 shadow-md transform active:scale-95 cursor-pointer"
                     >
                       <Phone className="w-3.5 h-3.5 fill-black" />
@@ -486,7 +416,7 @@ export default function Home() {
                     </a>
 
                     <a
-                      href={`https://wa.me/919996265679?text=Hi%20there%2C%20I%20am%20interested%20in%20arranging%20a%20meeting%20with%20companion%20"${encodeURIComponent(selectedEscort.name)}%20(${selectedEscort.age}%29"%20for%20a%20private%20hotel%20session%20in%20Dehradun.%20Please%20verify%20availability.`}
+                      href={`https://wa.me/91000000000?text=Hi%20there%2C%20I%20am%20interested%20in%20arranging%20a%20meeting%20with%20companion%20"${encodeURIComponent(selectedEscort.name)}%20(${selectedEscort.age}%29"%20for%20a%20private%20hotel%20session%20in%20Dehradun.%20Please%20verify%20availability.`}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex items-center justify-center gap-2 bg-[#220810]/80 hover:bg-[#220810] text-white font-sans font-black text-[10px] uppercase tracking-widest py-3 rounded-xl border border-luxury-gold/25 hover:border-luxury-gold/50 transition-all duration-200 transform active:scale-95 cursor-pointer"

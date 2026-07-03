@@ -304,7 +304,7 @@ export default function Escorts() {
                       </span>
                       <a
                         id={`gallery-item-wa-direct-${escort.id}`}
-                        href={`https://wa.me/919996265679?text=Hi%20there%2C%20I%20am%20interested%20in%20arranging%20a%20private%20meeting%20with%20companion%20"${encodeURIComponent(escort.name)}%20(${escort.age}%29"%20in%20Dehradun.`}
+                        href={`https://wa.me/91000000000?text=Hi%20there%2C%20I%20am%20interested%20in%20arranging%20a%20private%20meeting%20with%20companion%20"${encodeURIComponent(escort.name)}%20(${escort.age}%29"%20in%20Dehradun.`}
                         target="_blank"
                         rel="noopener noreferrer"
                         onClick={(e) => e.stopPropagation()} // Wait, prevent opening details modal
@@ -458,7 +458,7 @@ export default function Escorts() {
                   
                   <div className="grid grid-cols-2 gap-3">
                     <a
-                      href="tel:9996265679"
+                      href="tel:000000000"
                       className="flex items-center justify-center gap-2 bg-gradient-to-r from-luxury-gold to-yellow-600 hover:brightness-105 text-black font-sans font-black text-[10px] uppercase tracking-widest py-3 rounded-xl transition-all duration-200 shadow-md transform active:scale-95 cursor-pointer"
                     >
                       <Phone className="w-3.5 h-3.5 fill-black" />
@@ -466,7 +466,7 @@ export default function Escorts() {
                     </a>
 
                     <a
-                      href={`https://wa.me/919996265679?text=Hi%20there%2C%20I%20am%20interested%20in%20booking%20companion%20"${encodeURIComponent(selectedCompanion.name)}%20(${selectedCompanion.age}%29"%20for%20a%20private%20hotel%20session%20in%20Dehradun.`}
+                      href={`https://wa.me/91000000000?text=Hi%20there%2C%20I%20am%20interested%20in%20booking%20companion%20"${encodeURIComponent(selectedCompanion.name)}%20(${selectedCompanion.age}%29"%20for%20a%20private%20hotel%20session%20in%20Dehradun.`}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex items-center justify-center gap-2 bg-[#220810]/80 hover:bg-[#220810] text-white font-sans font-black text-[10px] uppercase tracking-widest py-3 rounded-xl border border-luxury-gold/25 hover:border-luxury-gold/50 transition-all duration-200 transform active:scale-95 cursor-pointer"

@@ -50,8 +50,8 @@ export default function FAQAccordion() {
         <div className="mt-16 text-center bg-gradient-to-r from-luxury-card to-luxury-card-light border border-luxury-gold/25 rounded-3xl p-8 max-w-2xl mx-auto space-y-6 shadow-xl animate-fade-in">
           <p className="font-serif text-xl italic text-white font-medium">Have other private requests?</p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center items-center pt-2">
-            <a href="tel:9996265679" className="inline-flex items-center justify-center gap-2 w-full sm:w-auto bg-gradient-to-r from-luxury-gold to-yellow-600 hover:brightness-110 text-black font-sans font-black text-[10px] uppercase tracking-widest py-3.5 px-6 rounded-full transition-all duration-200"><Phone className="w-4 h-4 fill-black" /><span>Call Agency</span></a>
-            <a href="https://wa.me/919996265679" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 w-full sm:w-auto bg-[#300f19] hover:bg-[#300f19]/70 text-white font-sans font-black text-[10px] uppercase tracking-widest py-3.5 px-6 rounded-full border border-luxury-gold/20 hover:border-luxury-gold transition-colors"><MessageCircle className="w-4 h-4 text-emerald-500" /><span>Enquire Privately</span></a>
+            <a href="tel:000000000" className="inline-flex items-center justify-center gap-2 w-full sm:w-auto bg-gradient-to-r from-luxury-gold to-yellow-600 hover:brightness-110 text-black font-sans font-black text-[10px] uppercase tracking-widest py-3.5 px-6 rounded-full transition-all duration-200"><Phone className="w-4 h-4 fill-black" /><span>Call Agency</span></a>
+            <a href="https://wa.me/91000000000" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 w-full sm:w-auto bg-[#300f19] hover:bg-[#300f19]/70 text-white font-sans font-black text-[10px] uppercase tracking-widest py-3.5 px-6 rounded-full border border-luxury-gold/20 hover:border-luxury-gold transition-colors"><MessageCircle className="w-4 h-4 text-emerald-500" /><span>Enquire Privately</span></a>
           </div>
         </div>
       </div>

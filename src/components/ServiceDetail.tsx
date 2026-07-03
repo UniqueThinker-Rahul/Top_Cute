@@ -36,7 +36,7 @@ export default function ServiceDetail() {
     setTimeout(() => {
       // Build a premium text message formatting the client's booking inquiry
       const textMessage = `Hi! I would like to secure a confidential booking for Service: "${service.title}".\nName: ${userName}\nEmail: ${userEmail || 'N/A'}\nPreferred Area: ${selectedLocation}.\nKindly verify active model availability.`;
-      const waUrl = `https://wa.me/919996265679?text=${encodeURIComponent(textMessage)}`;
+      const waUrl = `https://wa.me/91000000000?text=${encodeURIComponent(textMessage)}`;
       window.open(waUrl, '_blank', 'noopener,noreferrer');
       setIsSubmitted(false);
     }, 1500);
@@ -287,11 +287,11 @@ export default function ServiceDetail() {
 
                 <div className="h-[1px] bg-zinc-800 my-4" />
 
-                {/* Two prominent CTA buttons: "Call Now" and "WhatsApp Us" linking to 9996265679 */}
+                {/* Two prominent CTA buttons: "Call Now" and "WhatsApp Us" linking to 000000000 */}
                 <div className="space-y-2.5">
                   <a
                     id="sidebar-call-cta"
-                    href="tel:9996265679"
+                    href="tel:000000000"
                     className="flex items-center justify-center gap-2 w-full bg-gradient-to-r from-luxury-gold to-yellow-600 hover:brightness-105 text-black font-sans font-black text-xs uppercase tracking-widest py-3.5 rounded-xl shadow-md cursor-pointer transition-all duration-200"
                   >
                     <Phone className="w-4 h-4 fill-black" />
@@ -300,7 +300,7 @@ export default function ServiceDetail() {
 
                   <a
                     id="sidebar-whatsapp-cta"
-                    href={`https://wa.me/919996265679?text=Hi!%20I%20am%20looking%20to%20confidentially%20book%20a%20VIP%20companion%20for%20service%20"${encodeURIComponent(service.title)}"%20in%20Dehradun.`}
+                    href={`https://wa.me/91000000000?text=Hi!%20I%20am%20looking%20to%20confidentially%20book%20a%20VIP%20companion%20for%20service%20"${encodeURIComponent(service.title)}"%20in%20Dehradun.`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center justify-center gap-2 w-full bg-[#25D366] hover:bg-[#20ba56] text-white font-sans font-black text-xs uppercase tracking-widest py-3.5 rounded-xl shadow-md cursor-pointer transition-all duration-200"

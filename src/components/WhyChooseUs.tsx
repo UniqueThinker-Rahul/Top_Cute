@@ -88,7 +88,7 @@ export default function WhyChooseUs() {
           <div className="flex gap-4">
             <a
               id="trust-cta-call"
-              href="tel:9996265679"
+              href="tel:000000000"
               className="font-sans text-xs font-black tracking-widest uppercase text-black bg-luxury-gold px-5 py-3 rounded-lg hover:bg-yellow-600 transition-all duration-300"
             >
               Verify Secure Dispatch
