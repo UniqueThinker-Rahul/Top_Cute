@@ -8,7 +8,7 @@ export default function Contact() {
       <section className="relative min-h-[250px] flex items-center justify-center border-y border-luxury-gold/15 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img 
-            src="/image22.png" 
+            src="/Top Dehradun call girls.png" 
             alt="Dehradun Elite Contact" 
             className="w-full h-full object-cover object-bottom opacity-15 mix-blend-luminosity scale-102" 
             referrerPolicy="no-referrer" 
@@ -63,8 +63,8 @@ export default function Contact() {
                   <h4 className="font-serif text-sm font-black uppercase tracking-wider text-luxury-gold">
                     Direct Hotlines
                   </h4>
-                  <a href="tel:+919996265679" className="font-sans text-lg font-bold text-white hover:text-luxury-gold transition-colors block mt-0.5">
-                    +91-9996265679
+                  <a href="tel:+91000000000" className="font-sans text-lg font-bold text-white hover:text-luxury-gold transition-colors block mt-0.5">
+                    +91-000000000
                   </a>
                 </div>
               </div>
@@ -78,7 +78,7 @@ export default function Contact() {
                   <h4 className="font-serif text-sm font-black uppercase tracking-wider text-luxury-gold">
                     Confidential WhatsApp
                   </h4>
-                  <a href="https://wa.me/919996265679" target="_blank" rel="noopener noreferrer" className="font-sans text-lg font-bold text-white hover:text-luxury-gold transition-colors block mt-0.5">
+                  <a href="https://wa.me/91000000000" target="_blank" rel="noopener noreferrer" className="font-sans text-lg font-bold text-white hover:text-luxury-gold transition-colors block mt-0.5">
                     Instant Booking WhatsApp
                   </a>
                 </div>

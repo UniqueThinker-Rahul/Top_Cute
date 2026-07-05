@@ -5,25 +5,25 @@ import { Link } from 'react-router-dom';
 
 export default function Categories() {
   const curatedCategories = [
-    { id: 1, title: 'Premium VIP Models', desc: 'Elite companions for high-end events and private meetings.', img: '/image1.png' },
-    { id: 2, title: 'Russian & International', desc: 'Exotic beauties from around the globe for a unique experience.', img: '/image2.png' },
-    { id: 3, title: 'College Girls', desc: 'Young, energetic, and fun-loving companions for your dates.', img: '/image3.png' },
-    { id: 4, title: 'Housewives', desc: 'Mature, passionate, and deeply understanding encounters.', img: '/image4.png' },
-    { id: 5, title: 'Travel Companions', desc: 'Perfect partners for your weekend getaways and business trips.', img: '/image5.png' },
-    { id: 6, title: 'Dinner Dates', desc: 'Sophisticated and articulate dates for corporate or private dinners.', img: '/image6.png' },
+    { id: 1, title: 'Premium VIP Models', desc: 'Elite companions for high-end events and private meetings.', img: '/Dehradun escort service.png', alt: 'VIP dehradun call girl service' },
+    { id: 2, title: 'Russian & International', desc: 'Exotic beauties from around the globe for a unique experience.', img: '/Call girl dehradun.png', alt: 'Russian call girls dehradun' },
+    { id: 3, title: 'College Girls', desc: 'Young, energetic, and fun-loving companions for your dates.', img: '/Escort service dehradun.png', alt: 'Call girls in dehradun' },
+    { id: 4, title: 'Housewives', desc: 'Mature, passionate, and deeply understanding encounters.', img: '/Dehradun escort.png', alt: 'Dehradun bhabhi call girl' },
+    { id: 5, title: 'Travel Companions', desc: 'Perfect partners for your weekend getaways and business trips.', img: '/Call girl dehradun.png', alt: 'Dehradun escort service' },
+    { id: 6, title: 'Dinner Dates', desc: 'Sophisticated and articulate dates for corporate or private dinners.', img: '/Escorts in dehradun.png', alt: 'Escort service dehradun' },
   ];
 
   const featuredProfiles = [
-    { id: 1, name: 'Aarohi', age: 22, stats: '34-26-34', img: '/image8.png' },
-    { id: 2, name: 'Kiara', age: 24, stats: '36-28-36', img: '/image9.png' },
-    { id: 3, name: 'Natasha', age: 23, stats: '34-24-34', img: '/image10.png' },
-    { id: 4, name: 'Priya', age: 21, stats: '32-26-34', img: '/image11.png' },
+    { id: 1, name: 'Aarohi', age: 22, stats: '34-26-34', img: '/Dehradun escort girl.png', alt: 'Dehradun call girl service' },
+    { id: 2, name: 'Kiara', age: 24, stats: '36-28-36', img: '/High profile Dehradun call girls.png', alt: 'High profile Dehradun call girls' },
+    { id: 3, name: 'Natasha', age: 23, stats: '34-24-34', img: '/Independent call girls dehradun.png', alt: 'Independent call girls dehradun' },
+    { id: 4, name: 'Priya', age: 21, stats: '32-26-34', img: '/Call girl service in dehradun.png', alt: 'Call girl service in dehradun' },
   ];
 
   const ourServices = [
-    { id: 1, title: 'In-Call Services', desc: 'Visit our luxurious and discreet private spaces for an unforgettable time.', img: '/image12.png' },
-    { id: 2, title: 'Out-Call Services', desc: 'We deliver premium companionship directly to your hotel or residence.', img: '/image13.png' },
-    { id: 3, title: 'Couples Massage', desc: 'Relaxing and intimate massage therapies for you and your partner.', img: '/image14.png' },
+    { id: 1, title: 'In-Call Services', desc: 'Visit our luxurious and discreet private spaces for an unforgettable time.', img: '/College Girls Call Girls.png', alt: 'Escorts in dehradun profile portfolio' },
+    { id: 2, title: 'Out-Call Services', desc: 'We deliver premium companionship directly to your hotel or residence.', img: '/Call girls in dehradun.png', alt: 'Dehradun call girls near me outcall' },
+    { id: 3, title: 'Couples Massage', desc: 'Relaxing and intimate massage therapies for you and your partner.', img: '/High class dehradun escort.png', alt: 'High class dehradun escort premium session' },
   ];
 
   const memberships = [
@@ -35,6 +35,13 @@ export default function Categories() {
   return (
     <div className="bg-[#0a0d14] text-white">
       
+      {/* Hidden Semantic SEO Anchor Block for Crawler Ranking Signals */}
+      <div className="sr-only">
+        <h2>Dehradun call girl service - Call girl dehradun - Dehradun escort service</h2>
+        <p>Providing premium escort service dehradun, Dehradun escort selections, and professional escorts in dehradun. Get trusted options for an independent escort dehradun or a luxury Dehradun escort girl encounter.</p>
+        <p>Connect instantly via our official Dehradun call girl number, premium call girls number in dehradun, or save our dedicated Dehradun call girl WhatsApp number and Dehradun call girl mobile number for immediate bookings.</p>
+      </div>
+
       <section className="relative py-20 bg-[#0a0d14] border-b border-luxury-gold/20 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-luxury-gold/5 to-transparent opacity-50"></div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
@@ -48,7 +55,7 @@ export default function Categories() {
             initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.1 }}
             className="text-zinc-400 max-w-2xl mx-auto mb-8 text-sm md:text-base"
           >
-            Explore our diverse portfolio of elite companions tailored to fulfill your exact desires and requirements.
+            Explore our diverse portfolio of elite companions, offering the finest choices for a premium Call girl dehradun or an exclusive Dehradun escort.
           </motion.p>
         </div>
       </section>
@@ -56,7 +63,9 @@ export default function Categories() {
       <section className="py-16 bg-[#141925]">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h2 className="text-2xl md:text-3xl font-serif font-bold text-luxury-gold mb-6">Tailored Options for Your Desires</h2>
-          <p className="text-zinc-300 leading-relaxed mb-6 text-sm md:text-base">We understand that every gentleman has unique preferences...</p>
+          <p className="text-zinc-300 leading-relaxed mb-6 text-sm md:text-base">
+            We understand that every gentleman has unique preferences when seeking a reliable Dehradun call girl service or top Dehradun call girls for premium outcall hospitality.
+          </p>
         </div>
       </section>
 
@@ -70,7 +79,7 @@ export default function Categories() {
             {curatedCategories.map((category) => (
               <motion.div key={category.id} whileHover={{ y: -5 }} className="bg-[#141925] border border-white/5 rounded-xl overflow-hidden group cursor-pointer hover:border-luxury-gold/50 transition-all duration-300 shadow-lg">
                 <div className="h-56 overflow-hidden">
-                  <img src={category.img} alt={category.title} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
+                  <img src={category.img} alt={category.alt} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
                 </div>
                 <div className="p-6">
                   <h3 className="text-xl font-bold text-luxury-gold mb-2">{category.title}</h3>
@@ -86,7 +95,9 @@ export default function Categories() {
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center">
           <div className="w-full md:w-1/2 p-8 md:p-16">
             <h2 className="text-3xl md:text-4xl font-serif font-bold text-luxury-gold mb-6">For the Discerning Gentleman</h2>
-            <p className="text-zinc-300 mb-6 leading-relaxed">Experience companionship that transcends the ordinary.</p>
+            <p className="text-zinc-300 mb-6 leading-relaxed">
+              Experience signature companionship that transcends the ordinary with our elite roster of high class dehradun escort models.
+            </p>
             <ul className="space-y-4 mb-8 text-sm text-zinc-400">
               <li className="flex items-center gap-3"><Shield className="text-luxury-gold w-5 h-5" /> 100% Verified & Discreet</li>
               <li className="flex items-center gap-3"><Star className="text-luxury-gold w-5 h-5" /> Top 1% Elite Models</li>
@@ -94,7 +105,7 @@ export default function Categories() {
             </ul>
           </div>
           <div className="w-full md:w-1/2 h-[400px] md:h-[500px]">
-            <img src="/image7.png" alt="Luxury Lifestyle" className="w-full h-full object-cover opacity-80" />
+            <img src="/Escort dehradun.png" alt="Dehradun escort girl - Escort dehradun boutique agency" className="w-full h-full object-cover opacity-80" />
           </div>
         </div>
       </section>
@@ -109,7 +120,7 @@ export default function Categories() {
             {featuredProfiles.map((profile) => (
               <div key={profile.id} className="bg-[#141925] rounded-xl overflow-hidden group border border-white/5">
                 <div className="h-72 overflow-hidden relative">
-                  <img src={profile.img} alt={profile.name} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                  <img src={profile.img} alt={profile.alt} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
                   <div className="absolute inset-0 bg-gradient-to-t from-[#0a0d14] via-transparent to-transparent opacity-80"></div>
                   <div className="absolute bottom-4 left-4 right-4">
                     <h3 className="text-xl font-bold text-white">{profile.name}</h3>
@@ -132,7 +143,7 @@ export default function Categories() {
             {ourServices.map((service) => (
               <div key={service.id} className="text-center group">
                 <div className="w-full h-48 overflow-hidden rounded-xl mb-6">
-                  <img src={service.img} alt={service.title} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 opacity-80 group-hover:opacity-100" />
+                  <img src={service.img} alt={service.alt} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 opacity-80 group-hover:opacity-100" />
                 </div>
                 <h3 className="text-xl font-bold text-white mb-3">{service.title}</h3>
                 <p className="text-zinc-400 text-sm px-4">{service.desc}</p>
@@ -147,7 +158,7 @@ export default function Categories() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-serif font-bold text-white mb-4">VIP Memberships & Tariffs</h2>
-            <p className="text-zinc-400 max-w-2xl mx-auto">Transparent pricing for an absolutely premium experience.</p>
+            <p className="text-zinc-400 max-w-2xl mx-auto">Transparent pricing for an absolutely premium experience with elite companions.</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto items-center">
             {memberships.map((plan) => (

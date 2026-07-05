@@ -9,7 +9,8 @@ export const escortsData: EscortProfile[] = [
     measurements: "34-24-36",
     ethnicity: "Indian",
     languages: ["English", "Hindi"],
-    image: "/image1.png", // Updated to .png
+    image: "/Dehradun escort service.png", // Updated to .png
+    alt: "VIP Call Girl in Dehradun - Premium Escort Anya for Elite Meetings", // Added for SEO
     rating: 4.9,
     tags: ["Super Model", "VIP Selection", "Sensual & Warm"],
     about: "Anya is a breathtaking companion with a grace that lights up any elite gathering. Elegant, articulate, and completely enchanting.",
@@ -25,7 +26,8 @@ export const escortsData: EscortProfile[] = [
     measurements: "32-26-34",
     ethnicity: "Indian",
     languages: ["English", "Hindi"],
-    image: "/image2.png", // Updated to .png
+    image: "/Call girl dehradun.png", // Updated to .png
+    alt: "High Profile College Girl Escort in Dehradun - Sophisticated Companion Riya", // Added for SEO
     rating: 5.0,
     tags: ["Elite Class", "Sophisticated", "Perfect Hostess"],
     about: "Riya has a charm that transcends words. With her sophisticated conversation skills and pristine etiquette, she is the ideal dinner match.",
@@ -41,7 +43,8 @@ export const escortsData: EscortProfile[] = [
     measurements: "36-25-36",
     ethnicity: "Eurasian Mix",
     languages: ["English", "Hindi", "French"],
-    image: "/image3.png", // Updated to .png
+    image: "/Escort service dehradun.png", // Updated to .png
+    alt: "Sensual Model Escort in Dehradun - Premium Travel Companion Sonia", // Added for SEO
     rating: 4.8,
     tags: ["Premium Collection", "Sensational", "Travel Friendly"],
     about: "An exotic beauty with an adventurous spirit. Sonia is highly requested by elite travelers looking to explore Dehradun's finest resorts.",
@@ -57,7 +60,8 @@ export const escortsData: EscortProfile[] = [
     measurements: "34-24-34",
     ethnicity: "Indian",
     languages: ["English", "Hindi"],
-    image: "/image4.png", // Updated to .png
+    image: "/Dehradun escort.png", // Updated to .png
+    alt: "Independent Call Girls in Dehradun - Cute and Discreet Escort Nisha", // Added for SEO
     rating: 4.9,
     tags: ["Cute & Sassy", "Playful", "Discreet Companion"],
     about: "Warm, giggly, and unbelievably attractive, Nisha offers a bubbly, genuine experience that feels exceptionally personal.",
@@ -73,7 +77,8 @@ export const escortsData: EscortProfile[] = [
     measurements: "34-26-35",
     ethnicity: "Indian",
     languages: ["English", "Hindi"],
-    image: "/image5.png", // Updated to .png
+    image: "/Call girl dehradun.png", // Updated to .png
+    alt: "Call Girl Dehradun - Elite Corporate VIP Escort Tanya", // Added for SEO
     rating: 5.0,
     tags: ["Corporate VIP", "Elegant Diva", "High Society"],
     about: "An absolute head-turner with sharp intellect and unmatched composure, Tanya moves effortlessly through five-star events and high-society parties.",
@@ -89,7 +94,8 @@ export const escortsData: EscortProfile[] = [
     measurements: "32-24-35",
     ethnicity: "Indian",
     languages: ["English", "Hindi"],
-    image: "/image6.png", // Updated to .png
+    image: "/Escorts in dehradun.png", // Updated to .png
+    alt: "Dehradun Escorts - Charming College Girl Companion Meera", // Added for SEO
     rating: 4.9,
     tags: ["Exclusive Debut", "Sensual Muse", "Charming Conversationist"],
     about: "Meera is an artistic soul who appreciates fine dining, luxury hospitality, and private getaways in the hills of Uttarakhand.",
@@ -105,7 +111,8 @@ export const escortsData: EscortProfile[] = [
     measurements: "34-24-35",
     ethnicity: "Eurasian Mix",
     languages: ["English", "Spanish"],
-    image: "/image7.png", // Updated to .png
+    image: "/Escort dehradun.png", // Updated to .png
+    alt: "Foreign Escorts in Dehradun - VIP Sensual Model Elena for Hotel Outcalls", // Added for SEO
     rating: 4.9,
     tags: ["Foreign Diva", "VIP Experience", "Breathtaking Beauty"],
     about: "Elena exudes timeless allure and premium hospitality. Warm, caring, and elegant, she provides comforting warmth in five-star hotel visits.",
@@ -121,7 +128,8 @@ export const escortsData: EscortProfile[] = [
     measurements: "34-26-36",
     ethnicity: "Indian",
     languages: ["English", "Hindi"],
-    image: "/image8.png", // Updated to .png
+    image: "/Dehradun escort girl.png", // Updated to .png
+    alt: "Discreet Independent Call Girls in Dehradun - Kiara Premium Escort", // Added for SEO
     rating: 4.8,
     tags: ["Independent Star", "Discreet Muse", "Friendly Spirit"],
     about: "Kiara matches absolute beauty with a deeply engaging personality. Known for her loving and playful companionship, she ensures delightful relaxation.",
@@ -157,28 +165,32 @@ export const servicesData: ServiceItem[] = [
     id: 'service-1',
     title: "Premium Hotel Companion",
     description: "Our escorts are invited regularly to elite hotels and boutique resorts across Dehradun. Perfect for travelers seeking private luxury companionship.",
-    image: "/image9.png", // Updated to .png
+    image: "/High profile Dehradun call girls.png", // Updated to .png
+    alt: "Premium Hotel Companion - 5-Star VIP Escort Service in Dehradun", // Added for SEO
     features: ["Discreet check-ins", "Five-star etiquette", "Polite and charming conversations"]
   },
   {
     id: 'service-2',
     title: "Social Events & Dinner Dates",
     description: "Dazzle those around you with a high-class companion at banquets, corporate meetings, galas, or exclusive club nights.",
-    image: "/image10.png", // Updated to .png
+    image: "/Independent call girls dehradun.png", // Updated to .png
+    alt: "High Class Call Girls for Dinner Dates and Social Events in Dehradun", // Added for SEO
     features: ["Perfect styling", "Intelligent conversation", "Elegant demeanor"]
   },
   {
     id: 'service-3',
     title: "Travel & Multi-Day Escapes",
     description: "Explore the beautiful scenic valleys, cafes of Dehradun, and nearby hill stations like Mussoorie with an affectionate traveling muse.",
-    image: "/image11.png", // Updated to .png
+    image: "/Call girl service in dehradun.png", // Updated to .png
+    alt: "Dehradun Escorts for Travel and Mussoorie Outstation Escapes", // Added for SEO
     features: ["24/7 Companionship available", "Excellent travel dynamic", "Adventure-friendly vibe"]
   },
   {
     id: 'service-4',
-    title: "Private Parties & Get-togethers",
+    title: "VIP dehradun call girl.png-togethers",
     description: "Elevate your private gatherings or house parties with active, engaging, and dynamic companions who blend in flawlessly.",
-    image: "/image12.png", // Updated to .png
+    image: "/VIP dehradun call girl.png", // Updated to .png
+    alt: "Elite Call Girls in Dehradun for Private Parties and VIP Get-togethers", // Added for SEO
     features: ["Lively and fun", "Bespoke hosting support", "Tailored to your guest style"]
   }
 ];

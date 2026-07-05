@@ -24,6 +24,13 @@ export default function Footer() {
       id="contact"
       className="bg-luxury-bg border-t border-luxury-gold/20 pt-20 pb-10 relative overflow-hidden"
     >
+      {/* Hidden Semantic SEO Anchor Block for Crawler Ranking Signals */}
+      <div className="sr-only">
+        <h3>Independent call girls dehradun — High profile Dehradun call girls</h3>
+        <p>Secure premium call girl service in dehradun or find top-rated call girls in dehradun through our platform. We keep client metrics safe across our high class dehradun escort network.</p>
+        <p>Direct Hotlines: Dehradun call girl number, call girls number in dehradun, Dehradun call girl WhatsApp number, Dehradun call girl mobile number for secure bookings.</p>
+      </div>
+
       {/* Decorative Blur and grid overlay */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_bottom,rgba(214,175,55,0.02),transparent_70%)] pointer-events-none" />
 
@@ -81,7 +88,7 @@ export default function Footer() {
               {/* Updated Logo Image */}
               <img 
                 src="/TCG logo.png" 
-                alt="Top Cute Girls Logo" 
+                alt="Top Cute Girls Logo - Leading provider of top Dehradun call girls and independent call girls dehradun" 
                 className="w-[54px] h-[54px] shrink-0 object-contain" 
               />
               <div className="flex flex-col items-start gap-0">
@@ -180,6 +187,12 @@ export default function Footer() {
                 <span className="hover:text-luxury-gold transition-colors cursor-pointer block">
                   Terms of Companionship
                 </span>
+              </li>
+              <li>
+                {/* Disclaimer Link - Blinking & Highly Visible */}
+                <a href="/disclaimer" className="animate-pulse font-bold uppercase tracking-widest text-luxury-gold hover:text-white transition-colors cursor-pointer block">
+                  Disclaimer
+                </a>
               </li>
               <li>
                 <span className="hover:text-luxury-gold transition-colors cursor-pointer block">

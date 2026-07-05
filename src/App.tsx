@@ -11,7 +11,8 @@ import Escorts from './components/Escorts';
 import ServiceDetail from './components/ServiceDetail';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import FAQAccordion from './components/FAQAccordion'; // 👈 FAQ यहाँ इम्पोर्ट किया गया है
+import FAQAccordion from './components/FAQAccordion'; 
+import Disclaimer from './components/Disclaimer'; // 👈 Disclaimer इम्पोर्ट किया गया है
 
 // Location Components
 import Dehradun from './components/Dehradun';
@@ -137,7 +138,7 @@ export default function App() {
                 <div id="main-categories"><Categories /></div>
                 <div id="main-gallery"><Escorts /></div>
                 
-                {/* 👈 FAQ Section Moved Here (Last Bottom, above Contact) */}
+                {/* FAQ Section Moved Here (Last Bottom, above Contact) */}
                 <FAQAccordion /> 
                 
                 <div id="main-contact"><Contact /></div>
@@ -153,6 +154,9 @@ export default function App() {
             <Route path="/bangalore" element={<Bangalore />} />
             <Route path="/lucknow" element={<Lucknow />} />
             <Route path="/hyderabad" element={<Hyderabad />} />
+            
+            {/* 👈 New Disclaimer Page Route */}
+            <Route path="/disclaimer" element={<Disclaimer />} />
           </Routes>
         </main>
 

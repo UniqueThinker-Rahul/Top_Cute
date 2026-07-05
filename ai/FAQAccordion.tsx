@@ -6,18 +6,6 @@ import { faqData } from '../data';
 export default function FAQAccordion() {
   const [openId, setOpenId] = useState<string | null>('faq-1');
 
-  // Combined Existing FAQs with the New SEO FAQs provided by you (100% exact match)
-  const seoFaqData = [
-    { id: 'seo-faq-1', question: "How can I find genuine Dehradun call girls?", answer: "Contact our Dehradun escort agency. We only provide verified top Dehradun call girls." },
-    { id: 'seo-faq-2', question: "Can you share the Dehradun call girl's WhatsApp number?", answer: "Yes, after basic verification we will share the contact details." },
-    { id: 'seo-faq-3', question: "Do you have hotel service?", answer: "Yes. Escorts in Dehradun will be provided for hotel visits." },
-    { id: 'seo-faq-4', question: "Are Russian call girls available?", answer: "Yes. We have Russian call girls in Dehradun on request." },
-    { id: 'seo-faq-5', question: "What are your charges?", answer: "Our rates are reasonable and depend on time and type of service. For the most up-to-date pricing, please call." },
-    { id: 'seo-faq-6', question: "Is the service safe and private?", answer: "Yes. Safety and privacy are our number one priority." }
-  ];
-
-  const combinedFaqData = [...faqData, ...seoFaqData];
-
   const toggleFAQ = (id: string) => {
     setOpenId((prev) => (prev === id ? null : id));
   };
@@ -27,10 +15,6 @@ export default function FAQAccordion() {
       <div className="absolute left-1/3 top-1/4 w-80 h-80 bg-luxury-gold/5 rounded-full filter blur-[100px] pointer-events-none" />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        
-        {/* ========================================= */}
-        {/* INTERACTIVE FAQ ACCORDION */}
-        {/* ========================================= */}
         <div className="text-center max-w-2xl mx-auto mb-16 space-y-4">
           <span className="font-sans text-xs font-bold tracking-[0.3em] text-luxury-gold uppercase">Discreet Help Center</span>
           <h2 className="font-serif text-3xl sm:text-5xl font-extrabold text-white leading-tight">Frequently Asked <span className="text-luxury-gold">Questions</span></h2>
@@ -38,7 +22,7 @@ export default function FAQAccordion() {
         </div>
 
         <div className="space-y-4">
-          {combinedFaqData.map((item) => {
+          {faqData.map((item, idx) => {
             const isOpen = openId === item.id;
             return (
               <div key={item.id} className={`bg-luxury-card rounded-2xl border transition-all duration-300 overflow-hidden ${isOpen ? 'border-luxury-gold/40 shadow-xl shadow-luxury-gold/[0.04]' : 'border-luxury-gold/15 hover:border-luxury-gold/30'}`}>
@@ -63,9 +47,6 @@ export default function FAQAccordion() {
           })}
         </div>
 
-        {/* ========================================= */}
-        {/* BOTTOM CTA BLOCK */}
-        {/* ========================================= */}
         <div className="mt-16 text-center bg-gradient-to-r from-luxury-card to-luxury-card-light border border-luxury-gold/25 rounded-3xl p-8 max-w-2xl mx-auto space-y-6 shadow-xl animate-fade-in">
           <p className="font-serif text-xl italic text-white font-medium">Have other private requests?</p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center items-center pt-2">

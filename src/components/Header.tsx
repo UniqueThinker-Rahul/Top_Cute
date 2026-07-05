@@ -171,7 +171,6 @@
 // }
 
 
-
 import React, { useState, useEffect } from 'react';
 import { Menu, X, Phone } from 'lucide-react';
 import { useLocation, useNavigate } from 'react-router-dom';
@@ -238,12 +237,19 @@ export default function Header() {
 
   return (
     <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-[#0a0d14]/95 backdrop-blur-md border-b border-luxury-gold/30 shadow-lg' : 'bg-[#0a0d14]/70 backdrop-blur-sm border-b border-white/10'}`}>
+      
+      {/* Hidden Semantic SEO Anchor Block for Crawler Ranking Signals */}
+      <div className="sr-only">
+        <h1>Russian call girls dehradun — Dehradun bhabhi call girl selections — VIP dehradun call girl services</h1>
+        <p>Premium platform providing verified connection logs to top Dehradun call girls, high profile Dehradun call girls, and professional escort service dehradun choices.</p>
+      </div>
+
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           
           <div className="flex-shrink-0 flex items-center">
             <a href="#" onClick={(e) => handleNavClick(e, '/', '#main-home')} className="group flex items-center gap-2.5">
-              <img src="/TCG logo.png" alt="Top Cute Girls Logo" className="w-[42px] h-[42px] shrink-0 object-contain" />
+              <img src="/TCG logo.png" alt="Top Cute Girls Logo - Best Call girl dehradun and premium Dehradun escort agency branding asset" className="w-[42px] h-[42px] shrink-0 object-contain" />
               <div className="flex flex-col items-start gap-0">
                 <span className="font-serif text-xl sm:text-2xl font-bold tracking-wider text-luxury-gold hover:opacity-90 transition-opacity whitespace-nowrap">TOP CUTE GIRLS</span>
                 <span className="font-sans text-[10px] tracking-[0.25em] text-zinc-400 uppercase">Premium Agency</span>

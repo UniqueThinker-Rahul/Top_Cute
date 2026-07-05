@@ -81,7 +81,7 @@ export default function Escorts() {
       <section className="relative min-h-[350px] flex items-center justify-center bg-luxury-bg border-b border-luxury-gold/15 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
-            src="/image14.png" // Updated image
+            src="/High class dehradun escort.png" // Updated image
             alt="Dehradun Elite Companions"
             className="w-full h-full object-cover object-center opacity-25 mix-blend-luminosity scale-102"
             referrerPolicy="no-referrer"
