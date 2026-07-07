@@ -18,7 +18,7 @@ export default function Hero() {
       {/* Background Image with Dark Vignette Overlay */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/Dehradun call girl number.png" 
+          src="/Dehradun call girl number.webp" 
           alt="Dehradun call girl number - Premium Dehradun call girl service and luxury escort service dehradun hospitality lounge"
           className="w-full h-full object-cover object-center scale-105 filter brightness-25 contrast-110"
           referrerPolicy="no-referrer"

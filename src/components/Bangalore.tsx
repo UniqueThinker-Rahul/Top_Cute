@@ -15,7 +15,7 @@ export default function Bangalore() {
       <section className="relative w-full flex items-center justify-center bg-luxury-bg overflow-hidden pt-20 pb-10 sm:py-0 min-h-[600px] lg:min-h-[558px]">
         <div className="absolute inset-0 z-0 bg-[#0a0d14]">
           <div className="absolute top-0 left-0 w-full h-[55vh] sm:h-full">
-            <img src="/Dehradun call girl mobile number.png" alt="Bangalore Premium Companion" className="w-full h-full object-cover object-top sm:object-center" referrerPolicy="no-referrer" />
+            <img src="/Dehradun call girl mobile number.webp" alt="Bangalore Premium Companion" className="w-full h-full object-cover object-top sm:object-center" referrerPolicy="no-referrer" />
             <div className="absolute inset-0 bg-black/40" />
             <div className="absolute inset-0 bg-gradient-to-t from-luxury-bg via-luxury-bg/30 to-transparent" />
           </div>
@@ -60,7 +60,7 @@ export default function Bangalore() {
           </div>
           <div className="lg:col-span-6">
             <div className="relative rounded-2xl overflow-hidden shadow-2xl aspect-[4/3] bg-zinc-200">
-              <img src="/Dehradun call girl mobile number.png" alt="Bangalore Elite Hospitality" className="w-full h-full object-cover filter sepia-[0.1]" />
+              <img src="/Dehradun call girl mobile number.webp" alt="Bangalore Elite Hospitality" className="w-full h-full object-cover filter sepia-[0.1]" />
             </div>
           </div>
         </div>

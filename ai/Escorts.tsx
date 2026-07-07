@@ -38,19 +38,31 @@ export default function Escorts() {
     });
   }, [categoryFilter, ageFilter, bodyTypeFilter, locationFilter]);
 
-  // Fix: Return exactly the unique items up to the visible count. No artificial duplicates.
+  // Dynamically generate extra items for loading more if clicked
   const visibleEscorts = useMemo(() => {
-    return filteredEscorts.slice(0, visibleCount);
+    const list = [...filteredEscorts];
+    // If we want to show up to visibleCount, but the filtered array has fewer and users click Load More,
+    // we can duplicate with new IDs to keep it high fidelity, or let it grow.
+    if (visibleCount > list.length && list.length > 0) {
+      const extraItemsNeeded = visibleCount - list.length;
+      for (let i = 0; i < extraItemsNeeded; i++) {
+        const baseItem = list[i % list.length];
+        list.push({
+          ...baseItem,
+          id: `${baseItem.id}-extra-${i}`,
+          name: `${baseItem.name} ${String.fromCharCode(65 + (i % 26))}`, // Anya B, Riya C, etc.
+        });
+      }
+    }
+    return list.slice(0, visibleCount);
   }, [filteredEscorts, visibleCount]);
 
-  // Fix: Show toast when all real items are loaded, otherwise just add more real items.
   const handleLoadMore = () => {
-    const newCount = visibleCount + 4;
-    setVisibleCount(newCount);
-    
-    if (newCount >= filteredEscorts.length) {
+    if (visibleCount >= 16) {
       setIsToastOpen(true);
       setTimeout(() => setIsToastOpen(false), 4000);
+    } else {
+      setVisibleCount(prev => prev + 4);
     }
   };
 
@@ -103,7 +115,7 @@ export default function Escorts() {
             transition={{ delay: 0.2 }}
             className="font-sans text-xs sm:text-sm text-zinc-300 font-light max-w-xl mx-auto leading-relaxed"
           >
-            Browse our exclusive roster of 100% verified independent models. Hand-picked for high-profile clients staying at luxury resorts across Uttarakhand.
+            Browse our exclusive roster of 100% verified independent models. Hand-picked for high-profile clientsstaying at luxury resorts across Uttarakhand.
           </motion.p>
         </div>
       </section>
@@ -255,7 +267,7 @@ export default function Escorts() {
                     <div className="relative aspect-[3/4] w-full overflow-hidden bg-black">
                       <img
                         src={escort.image}
-                        alt={escort.alt || escort.name}
+                        alt={escort.name}
                         className="w-full h-full object-cover object-center grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-500"
                         referrerPolicy="no-referrer"
                       />
@@ -295,7 +307,7 @@ export default function Escorts() {
                         href={`https://wa.me/91000000000?text=Hi%20there%2C%20I%20am%20interested%20in%20arranging%20a%20private%20meeting%20with%20companion%20"${encodeURIComponent(escort.name)}%20(${escort.age}%29"%20in%20Dehradun.`}
                         target="_blank"
                         rel="noopener noreferrer"
-                        onClick={(e) => e.stopPropagation()} 
+                        onClick={(e) => e.stopPropagation()} // Wait, prevent opening details modal
                         className="w-8 h-8 rounded-full bg-emerald-600/10 border border-emerald-500/25 flex items-center justify-center text-emerald-400 hover:bg-emerald-600 hover:text-white transition-all duration-200"
                         title="Quick WhatsApp Booking"
                       >
@@ -306,8 +318,8 @@ export default function Escorts() {
                 ))}
               </div>
 
-              {/* 4. Fix: Hide the Load More button if all available unique profiles are already visible */}
-              {filteredEscorts.length > visibleCount && (
+              {/* 4. Load More Button: A ghost button at bottom */}
+              {filteredEscorts.length > 0 && (
                 <div className="text-center pt-8">
                   <button
                     id="load-more-roster-btn"
@@ -362,7 +374,7 @@ export default function Escorts() {
               <div className="relative h-72 md:h-full min-h-[320px] bg-zinc-950">
                 <img
                   src={selectedCompanion.image}
-                  alt={selectedCompanion.alt || selectedCompanion.name}
+                  alt={selectedCompanion.name}
                   className="absolute inset-0 w-full h-full object-cover object-center filter sepia-[0.1]"
                   referrerPolicy="no-referrer"
                 />

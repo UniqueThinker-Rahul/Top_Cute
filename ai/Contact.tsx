@@ -1,4 +1,4 @@
-import { Phone, MessageCircle, Clock, ShieldAlert, Mail } from 'lucide-react';
+import { Phone, MessageCircle, Clock, ShieldAlert } from 'lucide-react';
 
 export default function Contact() {
   return (
@@ -80,21 +80,6 @@ export default function Contact() {
                   </h4>
                   <a href="https://wa.me/91000000000" target="_blank" rel="noopener noreferrer" className="font-sans text-lg font-bold text-white hover:text-luxury-gold transition-colors block mt-0.5">
                     Instant Booking WhatsApp
-                  </a>
-                </div>
-              </div>
-
-              {/* Secure Email */}
-              <div className="flex items-start gap-5">
-                <div className="w-12 h-12 bg-luxury-card/60 border border-luxury-gold/30 rounded-xl flex items-center justify-center shrink-0 text-luxury-gold">
-                  <Mail className="w-5 h-5 fill-luxury-gold/10" />
-                </div>
-                <div>
-                  <h4 className="font-serif text-sm font-black uppercase tracking-wider text-luxury-gold">
-                    Secure Email
-                  </h4>
-                  <a href="mailto:topcute@topcutegirls.org" className="font-sans text-lg font-bold text-white hover:text-luxury-gold transition-colors block mt-0.5">
-                    topcute@topcutegirls.org
                   </a>
                 </div>
               </div>

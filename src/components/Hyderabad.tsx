@@ -15,13 +15,13 @@ export default function Hyderabad() {
         {/* Backgrounds */}
         <div className="block sm:hidden absolute inset-0 z-0 bg-[#0a0d14]">
           <div className="absolute top-0 left-0 w-full h-[55vh]">
-            <img src="/Dehradun bhabhi call girl.png" alt="Hyderabad Premium Companion" className="w-full h-full object-cover object-top" referrerPolicy="no-referrer" />
+            <img src="/Dehradun bhabhi call girl.webp" alt="Hyderabad Premium Companion" className="w-full h-full object-cover object-top" referrerPolicy="no-referrer" />
             <div className="absolute inset-0 bg-black/30" />
             <div className="absolute inset-0 bg-gradient-to-t from-[#0a0d14] via-[#0a0d14]/80 to-transparent" />
           </div>
         </div>
         <div className="hidden sm:block absolute inset-0 z-0">
-          <img src="/Dehradun bhabhi call girl.png" alt="Hyderabad Premium Companion" className="w-full h-full object-cover object-center" referrerPolicy="no-referrer" />
+          <img src="/Dehradun bhabhi call girl.webp" alt="Hyderabad Premium Companion" className="w-full h-full object-cover object-center" referrerPolicy="no-referrer" />
           <div className="absolute inset-0 bg-black/40" />
           <div className="absolute inset-0 bg-gradient-to-t from-luxury-bg via-luxury-bg/30 to-transparent" />
         </div>

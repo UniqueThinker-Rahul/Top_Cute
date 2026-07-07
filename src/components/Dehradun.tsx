@@ -26,7 +26,7 @@ export default function Dehradun() {
         <div className="block sm:hidden absolute inset-0 z-0 bg-[#0a0d14]">
           <div className="absolute top-0 left-0 w-full h-[55vh]">
             <img
-              src="/Call girls number in dehradun.png"
+              src="/Call girls number in dehradun.webp"
               alt="Dehradun Premium Companion"
               className="w-full h-full object-cover object-top"
               referrerPolicy="no-referrer"
@@ -39,7 +39,7 @@ export default function Dehradun() {
         {/* Desktop View Background */}
         <div className="hidden sm:block absolute inset-0 z-0">
           <img
-            src="/Call girls number in dehradun.png"
+            src="/Call girls number in dehradun.webp"
             alt="Dehradun Premium Companion"
             className="w-full h-full object-cover object-center"
             referrerPolicy="no-referrer"
@@ -139,7 +139,7 @@ export default function Dehradun() {
           <div className="lg:col-span-6">
             <div className="relative rounded-2xl overflow-hidden border border-zinc-200 shadow-2xl aspect-[4/3] bg-zinc-200">
               <img
-                src="/Dehradun call girls near me.png"
+                src="/Dehradun call girls near me.webp"
                 alt="Dehradun Elite Suite Hospitality"
                 className="w-full h-full object-cover object-center filter sepia-[0.1] brightness-95"
               />

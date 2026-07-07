@@ -30,7 +30,7 @@ export default function About() {
                 </div>
 
                 <img
-                  src="/Call girls in dehradun.png"
+                  src="/Call girls in dehradun.webp"
                   alt="Elegant Luxury Model Portrait"
                   className="w-full h-full object-cover grayscale-[0.2] group-hover:grayscale-0 transition-all duration-750 ease-out scale-102 group-hover:scale-100"
                   referrerPolicy="no-referrer"
@@ -51,8 +51,8 @@ export default function About() {
               
               <div className="relative overflow-hidden rounded-2xl border border-white/5 bg-luxury-card aspect-[4/5] shadow-2xl">
                 <img
-                  src="/High class dehradun escort.png"
-                  alt="Discreet Escort Companionship"
+                  src="/High class dehradun escort.webp"
+                  alt="High class Dehradun escort"
                   className="w-full h-full object-cover grayscale-[0.2] group-hover:grayscale-0 transition-all duration-750 ease-out scale-102 group-hover:scale-100"
                   referrerPolicy="no-referrer"
                 />

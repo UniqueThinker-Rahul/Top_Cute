@@ -223,67 +223,6 @@ export default function ServiceDetail() {
                   </p>
                 </div>
 
-                <form onSubmit={handleFormSubmit} className="space-y-4">
-                  {/* Name Input */}
-                  <div className="space-y-1">
-                    <label id="booking-name-label" htmlFor="booking-name-input" className="block font-sans text-[10px] text-zinc-450 uppercase tracking-widest font-semibold">
-                      Your Name *
-                    </label>
-                    <input
-                      id="booking-name-input"
-                      type="text"
-                      required
-                      placeholder="e.g. John Doe"
-                      value={userName}
-                      onChange={(e) => setUserName(e.target.value)}
-                      className="w-full bg-[#111319] border border-zinc-700/60 focus:border-luxury-gold text-white font-sans text-sm rounded-xl px-4 py-3 outline-none focus:ring-1 focus:ring-luxury-gold transition-colors"
-                    />
-                  </div>
-
-                  {/* Email Input */}
-                  <div className="space-y-1">
-                    <label id="booking-email-label" htmlFor="booking-email-input" className="block font-sans text-[10px] text-zinc-450 uppercase tracking-widest font-semibold">
-                      Email Address (Optional)
-                    </label>
-                    <input
-                      id="booking-email-input"
-                      type="email"
-                      placeholder="e.g. discreet@domain.com"
-                      value={userEmail}
-                      onChange={(e) => setUserEmail(e.target.value)}
-                      className="w-full bg-[#111319] border border-zinc-700/60 focus:border-luxury-gold text-white font-sans text-sm rounded-xl px-4 py-3 outline-none focus:ring-1 focus:ring-luxury-gold transition-colors"
-                    />
-                  </div>
-
-                  {/* Location Select */}
-                  <div className="space-y-1">
-                    <label id="booking-location-label" htmlFor="booking-location-select" className="block font-sans text-[10px] text-zinc-450 uppercase tracking-widest font-semibold">
-                      Preferred Area
-                    </label>
-                    <select
-                      id="booking-location-select"
-                      value={selectedLocation}
-                      onChange={(e) => setSelectedLocation(e.target.value)}
-                      className="w-full bg-[#111319] border border-zinc-700/60 focus:border-luxury-gold text-white font-sans text-sm rounded-xl px-4 py-3 outline-none focus:ring-1 focus:ring-luxury-gold transition-colors cursor-pointer appearance-none"
-                    >
-                      <option value="Rajpur Road">Rajpur Road, Dehradun</option>
-                      <option value="Jakhan">Jakhan Sector</option>
-                      <option value="GMS Road">GMS Road Area</option>
-                      <option value="Mussoorie Road">Mussoorie Resort Belt</option>
-                      <option value="Paltan Bazaar">Paltan Bazaar</option>
-                    </select>
-                  </div>
-
-                  {/* Submit Secure Verification button */}
-                  <button
-                    id="submit-secure-booking-btn"
-                    type="submit"
-                    className="w-full bg-[#220810] hover:bg-[#300f19] border border-luxury-gold/30 text-white font-sans font-black text-xs uppercase tracking-widest py-3.5 rounded-xl cursor-pointer transition-all duration-200 mt-2 hover:border-luxury-gold flex items-center justify-center gap-2"
-                  >
-                    <Sparkles className="w-4 h-4 text-luxury-gold animate-pulse" />
-                    <span>{isSubmitted ? 'Verifying...' : 'Request Availability'}</span>
-                  </button>
-                </form>
 
                 <div className="h-[1px] bg-zinc-800 my-4" />
 

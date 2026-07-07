@@ -78,7 +78,7 @@
           
 //           <div className="flex-shrink-0 flex items-center">
 //             <a href="#" onClick={(e) => handleNavClick(e, '/', '#main-home')} className="group flex items-center gap-2.5">
-//               <img src="/TCG logo.png" alt="Top Cute Girls Logo" className="w-[42px] h-[42px] shrink-0 object-contain" />
+//               <img src="/TCG logo.webp" alt="Top Cute Girls Logo" className="w-[42px] h-[42px] shrink-0 object-contain" />
 //               <div className="flex flex-col items-start gap-0">
 //                 <span className="font-serif text-xl sm:text-2xl font-bold tracking-wider text-luxury-gold hover:opacity-90 transition-opacity whitespace-nowrap">TOP CUTE GIRLS</span>
 //                 <span className="font-sans text-[10px] tracking-[0.25em] text-zinc-400 uppercase">Premium Agency</span>
@@ -249,7 +249,7 @@ export default function Header() {
           
           <div className="flex-shrink-0 flex items-center">
             <a href="#" onClick={(e) => handleNavClick(e, '/', '#main-home')} className="group flex items-center gap-2.5">
-              <img src="/TCG logo.png" alt="Top Cute Girls Logo - Best Call girl dehradun and premium Dehradun escort agency branding asset" className="w-[42px] h-[42px] shrink-0 object-contain" />
+              <img src="/TCG logo.webp" alt="Top Cute Girls Logo - Best Call girl dehradun and premium Dehradun escort agency branding asset" className="w-[42px] h-[42px] shrink-0 object-contain" />
               <div className="flex flex-col items-start gap-0">
                 <span className="font-serif text-xl sm:text-2xl font-bold tracking-wider text-luxury-gold hover:opacity-90 transition-opacity whitespace-nowrap">TOP CUTE GIRLS</span>
                 <span className="font-sans text-[10px] tracking-[0.25em] text-zinc-400 uppercase">Premium Agency</span>

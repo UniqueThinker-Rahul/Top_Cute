@@ -41,7 +41,7 @@ export default function Home() {
         <div className="block sm:hidden absolute inset-0 z-0 bg-[#0a0d14]">
           <div className="absolute top-0 left-0 w-full h-[55vh]">
             <img
-              src="/Dehradun escort service.png"
+              src="/Dehradun escort service.webp"
               alt="Dehradun escort service and call girl dehradun premium portal backdrop"
               className="w-full h-full object-cover object-top"
               referrerPolicy="no-referrer"
@@ -53,7 +53,7 @@ export default function Home() {
 
         <div className="hidden sm:block absolute inset-0 z-0">
           <img
-            src="/Top Dehradun call girls.png"
+            src="/Top Dehradun call girls.webp"
             alt="Top Dehradun call girls and exclusive escort service dehradun portfolio"
             className="w-full h-full object-cover object-center"
             referrerPolicy="no-referrer"
@@ -164,7 +164,7 @@ export default function Home() {
           <div className="lg:col-span-6">
             <div className="relative rounded-2xl overflow-hidden border border-zinc-200 shadow-2xl aspect-[4/3] bg-zinc-200">
               <img
-                src="/Dehradun call girls near me.png"
+                src="/Dehradun call girls near me.webp"
                 alt="Elite Suite Hospitality featuring premier escort dehradun profiles"
                 className="w-full h-full object-cover object-center filter sepia-[0.1] brightness-95"
                 referrerPolicy="no-referrer"

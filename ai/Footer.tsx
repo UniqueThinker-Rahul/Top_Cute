@@ -106,14 +106,6 @@ export default function Footer() {
               and tailored companionship for elite gentlemen across Uttarakhand.
             </p>
 
-            {/* Email Support Link added here */}
-            <div className="flex items-center gap-3">
-              <Mail className="w-4 h-4 text-luxury-gold" />
-              <a href="mailto:topcute@topcutegirls.org" className="font-sans text-sm text-zinc-300 hover:text-luxury-gold transition-colors">
-                topcute@topcutegirls.org
-              </a>
-            </div>
-
             {/* Custom high fidelity DMCA badge */}
             <div className="inline-flex items-center gap-2 bg-[#141925] border border-luxury-gold/20 rounded-lg p-2.5">
               <div className="w-7 h-7 bg-red-600 rounded flex items-center justify-center text-white shrink-0 font-bold text-xs uppercase shadow-sm">
