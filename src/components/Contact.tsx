@@ -20,7 +20,7 @@ export default function Contact() {
           <span className="font-sans text-[10px] font-black tracking-[0.3em] text-luxury-gold uppercase block">
             SECURE ACCESS DEHRADUN
           </span>
-          <h2className="font-serif text-3xl sm:text-5xl font-black text-white leading-tight">
+          <h2 className="font-serif text-3xl sm:text-5xl font-black text-white leading-tight">
             Contact Us
           </h2>
           <p className="font-sans text-xs text-zinc-400 font-light max-w-lg mx-auto">
