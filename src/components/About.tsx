@@ -24,8 +24,8 @@ export default function About() {
               
               <div className="relative overflow-hidden rounded-2xl border border-white/5 bg-luxury-card aspect-[4/5] shadow-2xl">
                 
-                {/* 100% SECURE Badge */}
-                <div className="absolute top-0 right-0 bg-luxury-gold text-white font-sans text-[10px] font-black tracking-widest uppercase px-4 py-2 rounded-bl-xl z-20 shadow-lg">
+                {/* 100% SECURE Badge (Fixed contrast ratio: text-black instead of text-white) */}
+                <div className="absolute top-0 right-0 bg-luxury-gold text-black font-sans text-[10px] font-black tracking-widest uppercase px-4 py-2 rounded-bl-xl z-20 shadow-lg">
                   100% Secure
                 </div>
 

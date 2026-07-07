@@ -129,6 +129,7 @@ export default function Escorts() {
                 <div className="relative">
                   <select
                     id="filter-category-select"
+                    aria-label="Select Category"
                     value={categoryFilter}
                     onChange={(e) => { setCategoryFilter(e.target.value); setVisibleCount(8); }}
                     className="w-full lg:w-[160px] bg-[#1a050a] text-zinc-250 border border-luxury-gold/20 hover:border-luxury-gold/50 rounded-xl px-3 py-2.5 font-sans text-xs outline-none focus:ring-1 focus:ring-luxury-gold appearance-none cursor-pointer"
@@ -149,6 +150,7 @@ export default function Escorts() {
                 <div className="relative">
                   <select
                     id="filter-age-select"
+                    aria-label="Select Age"
                     value={ageFilter}
                     onChange={(e) => { setAgeFilter(e.target.value); setVisibleCount(8); }}
                     className="w-full lg:w-[140px] bg-[#1a050a] text-zinc-250 border border-luxury-gold/20 hover:border-luxury-gold/50 rounded-xl px-3 py-2.5 font-sans text-xs outline-none focus:ring-1 focus:ring-luxury-gold appearance-none cursor-pointer"
@@ -167,6 +169,7 @@ export default function Escorts() {
                 <div className="relative">
                   <select
                     id="filter-body-type-select"
+                    aria-label="Select Body Type"
                     value={bodyTypeFilter}
                     onChange={(e) => { setBodyTypeFilter(e.target.value); setVisibleCount(8); }}
                     className="w-full lg:w-[140px] bg-[#1a050a] text-zinc-250 border border-luxury-gold/20 hover:border-luxury-gold/50 rounded-xl px-3 py-2.5 font-sans text-xs outline-none focus:ring-1 focus:ring-luxury-gold appearance-none cursor-pointer"
@@ -187,6 +190,7 @@ export default function Escorts() {
                 <div className="relative">
                   <select
                     id="filter-location-select"
+                    aria-label="Select Location"
                     value={locationFilter}
                     onChange={(e) => { setLocationFilter(e.target.value); setVisibleCount(8); }}
                     className="w-full lg:w-[150px] bg-[#1a050a] text-zinc-250 border border-luxury-gold/20 hover:border-luxury-gold/50 rounded-xl px-3 py-2.5 font-sans text-xs outline-none focus:ring-1 focus:ring-luxury-gold appearance-none cursor-pointer"
@@ -296,7 +300,7 @@ export default function Escorts() {
                         target="_blank"
                         rel="noopener noreferrer"
                         onClick={(e) => e.stopPropagation()} 
-                        className="w-8 h-8 rounded-full bg-emerald-600/10 border border-emerald-500/25 flex items-center justify-center text-emerald-400 hover:bg-emerald-600 hover:text-white transition-all duration-200"
+                        className="w-8 h-8 rounded-full bg-emerald-700/10 border border-emerald-500/25 flex items-center justify-center text-emerald-500 hover:bg-emerald-700 hover:text-white transition-all duration-200"
                         title="Quick WhatsApp Booking"
                       >
                         <MessageCircle className="w-4 h-4 fill-current bg-transparent border-none p-0" />
