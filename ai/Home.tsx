@@ -45,7 +45,6 @@ export default function Home() {
               alt="Dehradun escort service and call girl dehradun premium portal backdrop"
               className="w-full h-full object-cover object-top"
               referrerPolicy="no-referrer"
-              fetchPriority="high"
             />
             <div className="absolute inset-0 bg-black/30" />
             <div className="absolute inset-0 bg-gradient-to-t from-[#0a0d14] via-[#0a0d14]/80 to-transparent" />
@@ -58,7 +57,6 @@ export default function Home() {
             alt="Top Dehradun call girls and exclusive escort service dehradun portfolio"
             className="w-full h-full object-cover object-center"
             referrerPolicy="no-referrer"
-            fetchPriority="high"
           />
           <div className="absolute inset-0 bg-black/40" />
           <div className="absolute inset-0 bg-gradient-to-t from-luxury-bg via-luxury-bg/30 to-transparent" />
