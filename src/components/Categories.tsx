@@ -42,12 +42,12 @@ export default function Categories() {
       <section className="relative py-20 bg-[#0a0d14] border-b border-luxury-gold/20 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-luxury-gold/5 to-transparent opacity-50"></div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
-          <motion.h1 
+          <motion.h2
             initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }}
             className="text-4xl md:text-5xl font-serif font-bold text-white mb-4"
           >
             Companionship <span className="text-luxury-gold">Categories</span>
-          </motion.h1>
+          </motion.h2>
           <motion.p 
             initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.1 }}
             className="text-zinc-400 max-w-2xl mx-auto mb-8 text-sm md:text-base"

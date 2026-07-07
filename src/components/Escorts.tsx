@@ -89,14 +89,14 @@ export default function Escorts() {
           >
             SOUGHT-AFTER ACCOMPANIMENT
           </motion.span>
-          <motion.h1
+          <motion.h2
             initial={{ opacity: 0, y: 15 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.1 }}
             className="font-serif text-4xl sm:text-5.5xl font-extrabold text-white leading-tight tracking-tight"
           >
             Elite Dehradun Companions
-          </motion.h1>
+          </motion.h2>
           <motion.p
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
