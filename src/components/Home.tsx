@@ -41,11 +41,12 @@ export default function Home() {
         <div className="block sm:hidden absolute inset-0 z-0 bg-[#0a0d14]">
           <div className="absolute top-0 left-0 w-full h-[55vh]">
             <img
-              src="/Dehradun escort service.webp"
+              src="/Dehradun%20escort%20service.webp"
               alt="Dehradun escort service and call girl dehradun premium portal backdrop"
               className="w-full h-full object-cover object-top"
               referrerPolicy="no-referrer"
               fetchPriority="high"
+              decoding="sync"
             />
             <div className="absolute inset-0 bg-black/30" />
             <div className="absolute inset-0 bg-gradient-to-t from-[#0a0d14] via-[#0a0d14]/80 to-transparent" />
@@ -54,11 +55,12 @@ export default function Home() {
 
         <div className="hidden sm:block absolute inset-0 z-0">
           <img
-            src="/Top Dehradun call girls.webp"
+            src="/Top%20Dehradun%20call%20girls.webp"
             alt="Top Dehradun call girls and exclusive escort service dehradun portfolio"
             className="w-full h-full object-cover object-center"
             referrerPolicy="no-referrer"
             fetchPriority="high"
+            decoding="sync"
           />
           <div className="absolute inset-0 bg-black/40" />
           <div className="absolute inset-0 bg-gradient-to-t from-luxury-bg via-luxury-bg/30 to-transparent" />
@@ -206,7 +208,7 @@ export default function Home() {
                 key={escort.id}
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ his: true }}
+                viewport={{ once: true }} /* FIX: Corrected typo 'his: true' to 'once: true' to prevent forced reflows */
                 transition={{ duration: 0.5 }}
                 onClick={() => setSelectedEscort(escort)}
                 className="group relative bg-white rounded-2xl overflow-hidden border border-zinc-200 transition-all duration-300 shadow-xl flex flex-col h-full cursor-pointer hover:border-luxury-gold/50"
