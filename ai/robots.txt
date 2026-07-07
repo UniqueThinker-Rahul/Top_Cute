@@ -11,6 +11,10 @@ Allow: /escorts
 Allow: /about
 Allow: /services
 Allow: /contact
+Allow: /dehradun
+Allow: /lucknow
+Allow: /bangalore
+Allow: /hyderabad
 
 # Pages or patterns to DISALLOW (Keep these hidden from search engines)
 Disallow: /admin/
@@ -21,4 +25,5 @@ Disallow: /*?*   # Prevents indexing of duplicate content via query parameters (
 # ==========================================
 # XML Sitemap Location
 # ==========================================
-Sitemap: https://topcutegirls.org/sitemap.xml
+# Replace 'yourdomain.com' with your actual live website domain
+Sitemap: https://www.yourdomain.com/sitemap.xml
