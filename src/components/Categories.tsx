@@ -76,7 +76,7 @@ export default function Categories() {
             {curatedCategories.map((category) => (
               <div key={category.id} className="bg-[#141925] border border-white/5 rounded-xl overflow-hidden group cursor-pointer hover:border-luxury-gold/50 hover:-translate-y-1 transition-all duration-300 shadow-lg">
                 <div className="h-56 overflow-hidden">
-                  <img src={category.img} alt={category.alt} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
+                  <img src={category.img} alt={category.alt} width="800" height="600" loading="lazy" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
                 </div>
                 <div className="p-6">
                   <h3 className="text-xl font-bold text-luxury-gold mb-2">{category.title}</h3>
@@ -102,7 +102,7 @@ export default function Categories() {
             </ul>
           </div>
           <div className="w-full md:w-1/2 h-[400px] md:h-[500px]">
-            <img src="/Dehradun Call Girls WhatsApp Number-optimized.webp" alt="Dehradun Call Girls WhatsApp Number" className="w-full h-full object-cover opacity-80" />
+            <img src="/Dehradun Call Girls WhatsApp Number-optimized.webp" alt="Dehradun Call Girls WhatsApp Number" width="800" height="1000" loading="lazy" className="w-full h-full object-cover opacity-80" />
           </div>
         </div>
       </section>
@@ -117,7 +117,7 @@ export default function Categories() {
             {featuredProfiles.map((profile) => (
               <div key={profile.id} className="bg-[#141925] rounded-xl overflow-hidden group border border-white/5">
                 <div className="h-72 overflow-hidden relative">
-                  <img src={profile.img} alt={profile.alt} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                  <img src={profile.img} alt={profile.alt} width="600" height="800" loading="lazy" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
                   <div className="absolute inset-0 bg-gradient-to-t from-[#0a0d14] via-transparent to-transparent opacity-80"></div>
                   <div className="absolute bottom-4 left-4 right-4">
                     <h3 className="text-xl font-bold text-white">{profile.name}</h3>
@@ -127,6 +127,16 @@ export default function Categories() {
               </div>
             ))}
           </div>
+
+          {/* Verification Trust Block */}
+          <div className="mt-12 bg-[#141925]/80 border border-luxury-gold/20 rounded-2xl p-6 sm:p-8 text-center max-w-3xl mx-auto shadow-lg">
+            <Shield className="w-8 h-8 text-luxury-gold mx-auto mb-3" />
+            <h3 className="text-xl font-serif font-bold text-luxury-gold mb-3">How Verification Works</h3>
+            <p className="text-zinc-300 text-sm leading-relaxed">
+              Every companion in our elite roster undergoes a strict 3-step physical verification process. We verify government-issued ID for age confirmation, conduct in-person interviews to ensure 5-star hospitality standards, and guarantee that all portfolio photos are 100% accurate and current.
+            </p>
+          </div>
+
         </div>
       </section>
 
@@ -140,7 +150,7 @@ export default function Categories() {
             {ourServices.map((service) => (
               <div key={service.id} className="text-center group">
                 <div className="w-full h-48 overflow-hidden rounded-xl mb-6">
-                  <img src={service.img} alt={service.alt} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 opacity-80 group-hover:opacity-100" />
+                  <img src={service.img} alt={service.alt} width="800" height="600" loading="lazy" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 opacity-80 group-hover:opacity-100" />
                 </div>
                 <h3 className="text-xl font-bold text-white mb-3">{service.title}</h3>
                 <p className="text-zinc-400 text-sm px-4">{service.desc}</p>
@@ -168,7 +178,7 @@ export default function Categories() {
                 <h3 className="text-xl font-bold text-white mb-2 text-center">{plan.name}</h3>
                 <div className="text-center mb-6">
                   <span className="text-4xl font-black text-luxury-gold">{plan.price}</span>
-                  <span className="text-zinc-400 text-sm block mt-1">{plan.duration}</span>
+                  <span className="text-zinc-500 text-sm block mt-1">{plan.duration}</span>
                 </div>
                 <ul className="space-y-4 mb-8">
                   {plan.features.map((feature, idx) => (

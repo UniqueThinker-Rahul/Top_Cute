@@ -1,4 +1,4 @@
-import { Phone, MessageCircle, Clock, ShieldAlert, Mail } from 'lucide-react';
+import { Phone, MessageCircle, Clock, ShieldAlert, Mail, MapPin } from 'lucide-react';
 
 export default function Contact() {
   return (
@@ -10,6 +10,9 @@ export default function Contact() {
           <img 
             src="/Top Dehradun call girls.webp" 
             alt="Dehradun Elite Contact" 
+            width="1920" 
+            height="1080" 
+            fetchPriority="high" 
             className="w-full h-full object-cover object-bottom opacity-15 mix-blend-luminosity scale-102" 
             referrerPolicy="no-referrer" 
           />
@@ -99,6 +102,24 @@ export default function Contact() {
                 </div>
               </div>
 
+              {/* Agency Headquarters */}
+              <div className="flex items-start gap-5">
+                <div className="w-12 h-12 bg-luxury-card/60 border border-luxury-gold/30 rounded-xl flex items-center justify-center shrink-0 text-luxury-gold">
+                  <MapPin className="w-5 h-5 fill-luxury-gold/10" />
+                </div>
+                <div>
+                  <h3 className="font-serif text-sm font-black uppercase tracking-wider text-amber-400">
+                    Agency Headquarters
+                  </h3>
+                  <p className="font-sans text-base font-bold text-white mt-0.5">
+                    Rajpur Road, Dehradun
+                  </p>
+                  <p className="font-sans text-xs text-zinc-400 mt-0.5">
+                    Uttarakhand 248001, India
+                  </p>
+                </div>
+              </div>
+
               {/* Operating Hours */}
               <div className="flex items-start gap-5">
                 <div className="w-12 h-12 bg-luxury-card/60 border border-luxury-gold/30 rounded-xl flex items-center justify-center shrink-0 text-luxury-gold">
@@ -122,6 +143,15 @@ export default function Contact() {
               <p className="font-sans text-[11px] sm:text-xs text-zinc-400 leading-relaxed font-light">
                 <strong className="text-zinc-200">Verification Warning:</strong> We require zero deposits or registration fees before you meet a companion. Always protect your capital.
               </p>
+            </div>
+
+            {/* Legal & Policy Links */}
+            <div className="pt-6 mt-6 border-t border-luxury-gold/15 flex flex-wrap gap-4 items-center">
+              <a href="/privacy-policy" className="font-sans text-xs text-zinc-400 hover:text-luxury-gold transition-colors">Privacy Policy</a>
+              <span className="text-zinc-600 text-xs">•</span>
+              <a href="/terms" className="font-sans text-xs text-zinc-400 hover:text-luxury-gold transition-colors">Terms of Service</a>
+              <span className="text-zinc-600 text-xs">•</span>
+              <a href="/disclaimer" className="font-sans text-xs text-zinc-400 hover:text-luxury-gold transition-colors">Disclaimer</a>
             </div>
 
           </div>
