@@ -74,7 +74,7 @@ export default function Categories() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {curatedCategories.map((category) => (
-              <div key={category.id} className="bg-[#141925] border border-white/5 rounded-xl overflow-hidden group cursor-pointer hover:border-luxury-gold/50 hover:-translate-y-1 transition-all duration-300 shadow-lg">
+              <motion.div key={category.id} whileHover={{ y: -5 }} className="bg-[#141925] border border-white/5 rounded-xl overflow-hidden group cursor-pointer hover:border-luxury-gold/50 transition-all duration-300 shadow-lg">
                 <div className="h-56 overflow-hidden">
                   <img src={category.img} alt={category.alt} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
                 </div>
@@ -82,7 +82,7 @@ export default function Categories() {
                   <h3 className="text-xl font-bold text-luxury-gold mb-2">{category.title}</h3>
                   <p className="text-zinc-400 text-sm mb-4 line-clamp-2">{category.desc}</p>
                 </div>
-              </div>
+              </motion.div>
             ))}
           </div>
         </div>
@@ -168,7 +168,7 @@ export default function Categories() {
                 <h3 className="text-xl font-bold text-white mb-2 text-center">{plan.name}</h3>
                 <div className="text-center mb-6">
                   <span className="text-4xl font-black text-luxury-gold">{plan.price}</span>
-                  <span className="text-zinc-400 text-sm block mt-1">{plan.duration}</span>
+                  <span className="text-zinc-500 text-sm block mt-1">{plan.duration}</span>
                 </div>
                 <ul className="space-y-4 mb-8">
                   {plan.features.map((feature, idx) => (

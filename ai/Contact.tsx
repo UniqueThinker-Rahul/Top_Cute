@@ -37,7 +37,7 @@ export default function Contact() {
           <div className="bg-[#141925]/80 border border-luxury-gold/20 rounded-3xl p-8 sm:p-12 shadow-2xl relative space-y-10 text-left">
             
             <div className="space-y-4">
-              <span className="font-sans text-[10px] font-bold tracking-[0.2em] text-amber-400 uppercase block">
+              <span className="font-sans text-[10px] font-bold tracking-[0.2em] text-luxury-gold uppercase block">
                 CONFIDENTIAL DISPATCH
               </span>
               <h2 className="font-serif text-3xl sm:text-4.5xl font-extrabold text-white leading-tight">
@@ -60,9 +60,9 @@ export default function Contact() {
                   <Phone className="w-5 h-5 fill-luxury-gold/10" />
                 </div>
                 <div>
-                  <h3 className="font-serif text-sm font-black uppercase tracking-wider text-amber-400">
+                  <h4 className="font-serif text-sm font-black uppercase tracking-wider text-luxury-gold">
                     Direct Hotlines
-                  </h3>
+                  </h4>
                   <a href="tel:+91000000000" className="font-sans text-lg font-bold text-white hover:text-luxury-gold transition-colors block mt-0.5">
                     +91-000000000
                   </a>
@@ -75,9 +75,9 @@ export default function Contact() {
                   <MessageCircle className="w-5 h-5 fill-luxury-gold/10" />
                 </div>
                 <div>
-                  <h3 className="font-serif text-sm font-black uppercase tracking-wider text-amber-400">
+                  <h4 className="font-serif text-sm font-black uppercase tracking-wider text-luxury-gold">
                     Confidential WhatsApp
-                  </h3>
+                  </h4>
                   <a href="https://wa.me/91000000000" target="_blank" rel="noopener noreferrer" className="font-sans text-lg font-bold text-white hover:text-luxury-gold transition-colors block mt-0.5">
                     Instant Booking WhatsApp
                   </a>
@@ -90,9 +90,9 @@ export default function Contact() {
                   <Mail className="w-5 h-5 fill-luxury-gold/10" />
                 </div>
                 <div>
-                  <h3 className="font-serif text-sm font-black uppercase tracking-wider text-amber-400">
+                  <h4 className="font-serif text-sm font-black uppercase tracking-wider text-luxury-gold">
                     Secure Email
-                  </h3>
+                  </h4>
                   <a href="mailto:topcute@topcutegirls.org" className="font-sans text-lg font-bold text-white hover:text-luxury-gold transition-colors block mt-0.5">
                     topcute@topcutegirls.org
                   </a>
@@ -105,9 +105,9 @@ export default function Contact() {
                   <Clock className="w-5 h-5" />
                 </div>
                 <div>
-                  <h3 className="font-serif text-sm font-black uppercase tracking-wider text-amber-400">
+                  <h4 className="font-serif text-sm font-black uppercase tracking-wider text-luxury-gold">
                     Operating Hours
-                  </h3>
+                  </h4>
                   <p className="font-sans text-base font-bold text-white mt-0.5">
                     24 Hours / 7 Days a week
                   </p>
