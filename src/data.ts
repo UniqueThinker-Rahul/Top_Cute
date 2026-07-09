@@ -13,7 +13,7 @@ export const escortsData: EscortProfile[] = [
     alt: "VIP dehradun call girl",
     rating: 4.9,
     tags: ["Super Model", "VIP Selection", "Sensual & Warm"],
-    about: "Anya is a breathtaking companion with a grace that lights up any elite gathering. Elegant, articulate, and completely enchanting.",
+    about: "Anya is a stunning pet that gracefully adds to any high-level party. Elegant, articulate, and totally enchanting.",
     category: "VIP Elite",
     bodyType: "Slim",
     location: "Rajpur Road"
@@ -30,7 +30,7 @@ export const escortsData: EscortProfile[] = [
     alt: "College Call Girls",
     rating: 5.0,
     tags: ["Elite Class", "Sophisticated", "Perfect Hostess"],
-    about: "Riya has a charm that transcends words. With her sophisticated conversation skills and pristine etiquette, she is the ideal dinner match.",
+    about: "Riya charm is beyond words. She has reasonable conversation skills and impeccable etiquette; she the perfect dinner partner.",
     category: "College Girl",
     bodyType: "Slim",
     location: "Mussoorie Road"
@@ -47,7 +47,7 @@ export const escortsData: EscortProfile[] = [
     alt: "Russian call girls dehradun",
     rating: 4.8,
     tags: ["Premium Collection", "Sensational", "Travel Friendly"],
-    about: "An exotic beauty with an adventurous spirit. Sonia is highly requested by elite travelers looking to explore Dehradun's finest resorts.",
+    about: "An exotic beauty with an adventurous spirit. Dehradun top travelers are always eager to visit the best resorts in the town and Sonia is one of the most requested ones.",
     category: "Sensual Model",
     bodyType: "Curvy",
     location: "Rajpur Road"
@@ -64,7 +64,7 @@ export const escortsData: EscortProfile[] = [
     alt: "Independent call girls dehradun",
     rating: 4.9,
     tags: ["Cute & Sassy", "Playful", "Discreet Companion"],
-    about: "Warm, giggly, and unbelievably attractive, Nisha offers a bubbly, genuine experience that feels exceptionally personal.",
+    about: "Nisha is warm, giggly, and ridiculously attractive and a very bubbly and honest experience.",
     category: "Independent",
     bodyType: "Slim",
     location: "GMS Road"

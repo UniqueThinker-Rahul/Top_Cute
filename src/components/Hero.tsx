@@ -12,7 +12,7 @@ export default function Hero() {
         <h2>Dehradun call girl service — Call girl dehradun — Dehradun escort service</h2>
         <p>Welcome to the ultimate hub for escort service dehradun. Discover premium Dehradun escort portfolios, featuring stunning escorts in dehradun, independent escort dehradun models, and your ideal Dehradun escort girl.</p>
         <p>We supply high profile Dehradun call girls, premium independent call girls dehradun, and a verified call girl service in dehradun. Browse verified profiles of call girls in dehradun and high class dehradun escort hostesses.</p>
-        <p>Dial our direct Dehradun call girl number or call girls number in dehradun. Reach our team via Dehradun call girl WhatsApp number or use our active Dehradun call girl mobile number to book beautiful Dehradun call girls near me. We offer elite Russian call girls dehradun, local Dehradun bhabhi call girl selections, top Dehradun call girls, and exclusive VIP dehradun call girl hospitality.</p>
+        <p>Dial our direct Dehradun call girl number or call girls number in dehradun. Reach our team via Dehradun call girl WhatsApp number or use our active Dehradun call girl mobile number to book beautiful Dehradun call girls near me. We offer elite Russian call girls dehradun, local Dehradun bhabhi call girl selections, top Dehradun call girls, and exclusive VIP Dehradun call girl hospitality.</p>
       </div>
 
       {/* Background Image with Dark Vignette Overlay */}
