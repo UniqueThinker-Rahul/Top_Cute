@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Phone, MessageCircle, ChevronRight, Star, Shield, Clock } from 'lucide-react';
+import { Phone, MessageCircle, ChevronRight, Star, Shield, Clock, ShieldCheck, Sparkles } from 'lucide-react';
 
 export default function Categories() {
   const curatedCategories = [
@@ -156,6 +156,70 @@ export default function Categories() {
                 <p className="text-zinc-400 text-sm px-4">{service.desc}</p>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* 4. Features/Trust Section */}
+      <section className="py-20 sm:py-24 bg-luxury-card border-b border-luxury-gold/10 relative overflow-hidden">
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-luxury-gold/[0.02] rounded-full filter blur-[150px] pointer-events-none" />
+
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-12">
+
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              className="text-center space-y-4"
+            >
+              <div className="mx-auto w-14 h-14 bg-luxury-gold/10 border border-luxury-gold/30 rounded-2xl flex items-center justify-center text-luxury-gold shadow-md">
+                <ShieldCheck className="w-7 h-7" />
+              </div>
+              <h3 className="font-serif text-lg sm:text-xl font-bold text-white tracking-wide">
+                100% Private & Confidential
+              </h3>
+              <p className="font-sans text-sm text-zinc-400 font-light leading-relaxed max-w-sm mx-auto">
+                No identity checks logged and zero residual profiles. We protect standard client logs instantly from access, guaranteeing complete, seamless privacy.
+              </p>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.1 }}
+              className="text-center space-y-4"
+            >
+              <div className="mx-auto w-14 h-14 bg-luxury-gold/10 border border-luxury-gold/30 rounded-2xl flex items-center justify-center text-luxury-gold shadow-md">
+                <Sparkles className="w-7 h-7" />
+              </div>
+              <h3 className="font-serif text-lg sm:text-xl font-bold text-white tracking-wide">
+                Beautiful & Professional
+              </h3>
+              <p className="font-sans text-sm text-zinc-400 font-light leading-relaxed max-w-sm mx-auto">
+                Carefully chosen, charming models exhibiting five-star hospitality standards. Intelligent, multilingual conversation partners for gentlemen.
+              </p>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.2 }}
+              className="text-center space-y-4"
+            >
+              <div className="mx-auto w-14 h-14 bg-luxury-gold/10 border border-luxury-gold/30 rounded-2xl flex items-center justify-center text-luxury-gold shadow-md">
+                <Star className="w-7 h-7" />
+              </div>
+              <h3 className="font-serif text-lg sm:text-xl font-bold text-white tracking-wide">
+                VIP Escort Service
+              </h3>
+              <p className="font-sans text-sm text-zinc-400 font-light leading-relaxed max-w-sm mx-auto">
+                Elite resort visits and premium mountain companionship across Dehradun. Specially customized escapes to Mussoorie and wellness hill spas.
+              </p>
+            </motion.div>
+
           </div>
         </div>
       </section>

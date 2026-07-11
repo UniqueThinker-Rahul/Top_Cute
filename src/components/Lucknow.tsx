@@ -40,7 +40,7 @@ export default function Lucknow() {
         <div className="block sm:hidden absolute inset-0 z-0 bg-[#0a0d14]">
           <div className="absolute top-0 left-0 w-full h-[55vh]">
             <img
-              src="/Russian call girls dehradun.webp" // Lucknow specific image
+              src="/Russian call girls Dehradun.webp" // Lucknow specific image
               alt="Lucknow Premium Companion"
               className="w-full h-full object-cover object-top"
               referrerPolicy="no-referrer"
@@ -53,7 +53,7 @@ export default function Lucknow() {
         {/* Desktop View Background */}
         <div className="hidden sm:block absolute inset-0 z-0">
           <img
-            src="/Russian call girls dehradun.webp" // Lucknow specific image
+            src="/Russian call girls Dehradun.webp" // Lucknow specific image
             alt="Lucknow Premium Companion"
             className="w-full h-full object-cover object-center"
             referrerPolicy="no-referrer"
@@ -152,7 +152,7 @@ export default function Lucknow() {
           <div className="lg:col-span-6">
             <div className="relative rounded-2xl overflow-hidden border border-zinc-200 shadow-2xl aspect-[4/3] bg-zinc-200">
               <img
-                src="/Russian call girls dehradun.webp"
+                src="/Russian call girls Dehradun.webp"
                 alt="Lucknow Elite Suite Hospitality"
                 className="w-full h-full object-cover object-center filter sepia-[0.1] brightness-95"
               />

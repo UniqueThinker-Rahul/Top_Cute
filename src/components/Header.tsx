@@ -30,7 +30,7 @@
 //   ];
 
 //   const locationsList = [
-//     { name: 'Dehradun', path: '/dehradun' },
+//     { name: 'Dehradun', path: '/Dehradun' },
 //     { name: 'Bangalore', path: '/bangalore' },
 //     { name: 'Hyderabad', path: '/hyderabad' },
 //     { name: 'Lucknow', path: '/lucknow' },
@@ -240,8 +240,8 @@ export default function Header() {
       
       {/* Hidden Semantic SEO Anchor Block for Crawler Ranking Signals */}
       <div className="sr-only">
-        <h1>Russian call girls dehradun — Dehradun bhabhi call girl selections — VIP dehradun call girl services</h1>
-        <p>Premium platform providing verified connection logs to top Dehradun call girls, high profile Dehradun call girls, and professional escort service dehradun choices.</p>
+        <h1>Russian call girls Dehradun — Dehradun bhabhi call girl selections — VIP Dehradun call girl services</h1>
+        <p>Premium platform providing verified connection logs to top Dehradun call girls, high profile Dehradun call girls, and professional escort service Dehradun choices.</p>
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -249,7 +249,7 @@ export default function Header() {
           
           <div className="flex-shrink-0 flex items-center">
             <a href="#" onClick={(e) => handleNavClick(e, '/', '#main-home')} className="group flex items-center gap-2.5">
-              <img src="/TCG logo.webp" alt="Top Cute Girls Logo - Best Call girl dehradun and premium Dehradun escort agency branding asset" className="w-[42px] h-[42px] shrink-0 object-contain" />
+              <img src="/TCG logo.webp" alt="Top Cute Girls Logo - Best Call girl Dehradun and premium Dehradun escort agency branding asset" className="w-[42px] h-[42px] shrink-0 object-contain" />
               <div className="flex flex-col items-start gap-0">
                 <span className="font-serif text-xl sm:text-2xl font-bold tracking-wider text-luxury-gold hover:opacity-90 transition-opacity whitespace-nowrap">TOP CUTE GIRLS</span>
                 <span className="font-sans text-[10px] tracking-[0.25em] text-zinc-400 uppercase">Premium Agency</span>

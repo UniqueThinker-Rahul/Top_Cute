@@ -26,8 +26,7 @@ export default function Services() {
           </h2>
           <div className="h-[1px] w-24 bg-luxury-gold mx-auto my-6" />
           <p className="font-sans text-sm text-zinc-400 font-light leading-relaxed max-w-2xl mx-auto">
-            From premier guest accommodations in Dehradun's prime resorts to personal excursions, 
-            our companions provide the quintessential luxury touch and delightful charm you deserve.
+            From top-notch guest houses in the prime locations of Dehradun to individual trips. Our companions are the epitome of luxury and charm you deserve.
           </p>
         </div>
 

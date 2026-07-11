@@ -396,7 +396,7 @@ export default function Escorts() {
                   <div className="space-y-1">
                     <div className="flex items-center gap-1.5">
                       <div className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
-                      <span className="font-sans text-[10px] tracking-widest text-emerald-400 font-bold uppercase block">ACTIVE OUT-CALL DEHRADUN</span>
+                      <span className="font-sans text-[10px] tracking-widest text-emerald-400 font-bold uppercase block">ACTIVE OUT-CALL Dehradun</span>
                     </div>
                     <h3 className="font-serif text-3xl font-extrabold text-white">{selectedCompanion.name}</h3>
                     <p className="font-sans text-[10px] text-zinc-400 uppercase tracking-widest">Selected Executive Roster</p>

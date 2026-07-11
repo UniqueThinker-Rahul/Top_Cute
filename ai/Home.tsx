@@ -28,9 +28,9 @@ export default function Home() {
       
       {/* Hidden Semantic SEO Anchor Block for Crawler Ranking Signals */}
       <div className="sr-only">
-        <h2>Top Dehradun call girls - VIP dehradun call girl solutions</h2>
-        <p>Book high profile Dehradun call girls and elite independent call girls dehradun easily. Our agency offers exceptional call girl service in dehradun for discerning guests.</p>
-        <p>Quick access keys: Dehradun call girl number, call girls number in dehradun, Dehradun call girl WhatsApp number, Dehradun call girl mobile number.</p>
+        <h2>Top Dehradun call girls - VIP Dehradun call girl solutions</h2>
+        <p>Book high profile Dehradun call girls and elite independent call girls Dehradun easily. Our agency offers exceptional call girl service in Dehradun for discerning guests.</p>
+        <p>Quick access keys: Dehradun call girl number, call girls number in Dehradun, Dehradun call girl WhatsApp number, Dehradun call girl mobile number.</p>
       </div>
 
       {/* 1. Hero Section */}
@@ -42,7 +42,7 @@ export default function Home() {
           <div className="absolute top-0 left-0 w-full h-[55vh]">
             <img
               src="/Dehradun%20escort%20service.webp"
-              alt="Dehradun escort service and call girl dehradun premium portal backdrop"
+              alt="Dehradun escort service and call girl Dehradun premium portal backdrop"
               className="w-full h-full object-cover object-top"
               referrerPolicy="no-referrer"
               fetchPriority="high"
@@ -56,7 +56,7 @@ export default function Home() {
         <div className="hidden sm:block absolute inset-0 z-0">
           <img
             src="/Top%20Dehradun%20call%20girls.webp"
-            alt="Top Dehradun call girls and exclusive escort service dehradun portfolio"
+            alt="Top Dehradun call girls and exclusive escort service Dehradun portfolio"
             className="w-full h-full object-cover object-center"
             referrerPolicy="no-referrer"
             fetchPriority="high"
@@ -77,7 +77,7 @@ export default function Home() {
             className="space-y-4"
           >
             <span className="font-sans text-[10px] sm:text-xs md:text-sm font-black tracking-[0.3em] text-white uppercase block animate-pulse drop-shadow-md">
-              DEHRADUN'S PREMIER HOSTESS AGENCY
+              Dehradun'S PREMIER HOSTESS AGENCY
             </span>
             <h1 className="font-serif text-3xl sm:text-4.5xl md:text-6.5xl font-extrabold text-white leading-tight tracking-tight drop-shadow-lg">
               Premium Dehradun <br className="hidden sm:block" />
@@ -93,7 +93,7 @@ export default function Home() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="font-sans text-xs sm:text-sm md:text-lg text-zinc-100 max-w-2xl mx-auto font-light leading-relaxed drop-shadow-md px-2"
           >
-            Elegance, privacy, and premium companionship. Experience signature leisure escapes with Uttarakhand's finest selected high-profile ladies and VIP dehradun call girl options.
+            Elegance, privacy, and premium companionship. Experience signature leisure escapes with Uttarakhand's finest selected high-profile ladies and VIP Dehradun call girl options.
           </motion.p>
 
           <motion.div
@@ -167,7 +167,7 @@ export default function Home() {
             <div className="relative rounded-2xl overflow-hidden border border-zinc-200 shadow-2xl aspect-[4/3] bg-zinc-200">
               <img
                 src="/Dehradun call girls near me.webp"
-                alt="Elite Suite Hospitality featuring premier escort dehradun profiles"
+                alt="Elite Suite Hospitality featuring premier escort Dehradun profiles"
                 className="w-full h-full object-cover object-center filter sepia-[0.1] brightness-95"
                 referrerPolicy="no-referrer"
               />
@@ -190,7 +190,7 @@ export default function Home() {
             <span className="font-sans text-xs font-bold tracking-[0.3em] text-luxury-gold uppercase block">
               CURATED ESCORT ROSTER
             </span>
-            <div className="sr-only">Featuring verified options for an independent call girls dehradun arrangement.</div>
+            <div className="sr-only">Featuring verified options for an independent call girls Dehradun arrangement.</div>
             <h2 className="font-serif text-3xl sm:text-5xl font-extrabold text-white leading-tight">
               Featured <span className="text-luxury-gold italic">Companions</span>
             </h2>
@@ -323,74 +323,47 @@ export default function Home() {
       </section>
 
       {/* ========================================= */}
-      {/* SEMANTIC SEO ARTICLE BLOCK (100% MATCH) */}
+      {/* SEMANTIC SEO ARTICLE BLOCK (SWAPPED CONTENT) */}
       {/* ========================================= */}
       <section id="seo-content" className="py-20 bg-luxury-bg border-b border-luxury-gold/10 relative overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <article className="bg-[#141925]/60 border border-luxury-gold/20 rounded-3xl p-8 sm:p-12 shadow-2xl text-zinc-300 font-sans text-sm sm:text-base font-light leading-relaxed space-y-6">
-            <h2 className="font-serif text-2xl sm:text-3xl font-bold text-luxury-gold mb-4">Our Wide Range of Services</h2>
-            <p>We provide many types of companionship through our call girl service in Dehradun:</p>
-            <ul className="list-none space-y-2 text-zinc-400">
-              <li><strong>Hotel Visits:</strong> Need Dehradun call girls near me in your hotel? Our girls will visit your room and create a relaxing atmosphere.</li>
-              <li><strong>Dinner Dates:</strong> Have a good meal with a lovely date. Our high-profile Dehradun call girls are perfect for social dinners.</li>
-              <li><strong>Travel Companions:</strong> Make your trip more fun with a Dehradun escort girl who can travel with you.</li>
-              <li><strong>Weekend Outings:</strong> Spend quality time on weekends with the top Dehradun call girls. Take long trips, go shopping, or just hang out.</li>
-              <li><strong>Private Parties:</strong> Make your private parties a bit more private. excited with the help of Dehradun escorts.</li>
-              <li><strong>VIP Overnight Full Day Services:</strong> Overnight & full-night services are available.</li>
-            </ul>
-            <p>We also have special Dehradun bhabhi call girls for clients who like warm and caring company.</p>
+            <h2 className="font-serif text-2xl sm:text-3xl font-bold text-luxury-gold mb-4">Premium Dehradun Call Girls & Escort Service</h2>
+            <p>Welcome to the best <a href="https://www.topcutegirls.org/" className="text-luxury-gold hover:underline font-bold transition-colors cursor-pointer">Dehradun call girls</a> in the city. Looking for cute top Dehradun call girl services? A rellable Dehradun escort service. Or perhaps high-class Dehradun escorts. You've come to the right place. The time spent in Dehradun is really special thanks to her. Meetings are different and new every time. More comfortable. It's more personal.</p>
+            <p>We're known for our honesty and satisfaction. That's what people remember. Whether you need a VIP Dehradun call girl or independent call girls in Dehradun. In Dehradun we have a Russian call girl service. There are many of them available to choose from it.</p>
 
-            <h3 className="font-serif text-xl sm:text-2xl font-bold text-white mt-8 mb-4">Join Our Top Cute Girls in Dehradun</h3>
-            <p>We have some gorgeous and gifted friends in the collection:</p>
-            <ul className="list-none space-y-2 text-zinc-400">
-              <li><strong>High-profile Dehradun call girls:</strong> Attractive and smart women for important occasions.</li>
-              <li><strong>Independent Call Girls in Dehradun –</strong> Confident girls who like to work on their own terms.</li>
-              <li><strong>Russian Call Girls Dehradun—</strong>Exotic and attractive international companions.</li>
-              <li><strong>Cute College Girls—</strong>Young, fresh and full of energy.</li>
-              <li><strong>Hot and Stylish Models –</strong> For those who prefer glamour and style.</li>
-            </ul>
-            <p>You will only find it on our platform. We have the best Dehradun escort girls who have been meticulously selected. They are trained to understand your needs and make you feel comfortable.</p>
+            <h3 className="font-serif text-xl sm:text-2xl font-bold text-white mt-8 mb-4">Trusted Dehradun Escort Agency</h3>
+            <p>Professionalism is that what our Dehradun escort service stands for. true companionship, privacy, and customer satisfaction. If you want some company for a few hours or the entire evening. We strive to ensure pleasant and luxurious experience.</p>
 
-            <h3 className="font-serif text-xl sm:text-2xl font-bold text-white mt-8 mb-4">How to Book Dehradun Call Girls</h3>
-            <p>Booking with us is very easy. These are the simple steps:</p>
+            <h3 className="font-serif text-xl sm:text-2xl font-bold text-white mt-8 mb-4">100% Private and Confidential Escort Service</h3>
+            <p>Our top priority is always to maintain your privacy and confidentiality. All bookings, discussions, and personal information are kept confidential. Clients can call or WhatsApp us for Instant assistance and hassle-free booking.</p>
+            <p>If you're searching for Dehradun call girls in the area, book your trip ahead of time. Our support team makes the process of booking simple and professional.</p>
+
+            <h3 className="font-serif text-xl sm:text-2xl font-bold text-white mt-8 mb-4">VIP Escort Service in Dehradun</h3>
+            <p>Our VIP escort service in Dehradun is designed for those who are looking for a VIP experience. It's ideal for corporate events and fancy meals. Private events, social events and special outings.</p>
+            <p>These elegant friends are specially selected. They provide elegant company and memorable experiences for high-profile clients.</p>
+
+            <h3 className="font-serif text-xl sm:text-2xl font-bold text-white mt-8 mb-4">Why Clients Trust Our Dehradun Escort Service</h3>
+            <p>Dehradun is a wonderful city with a lovely climate, good food and nice hotels. Many businessmen. Tourists and locals look for safe and fun escort services in Dehradun. Here is why they choose us:</p>
             <ul className="list-disc pl-6 space-y-2 text-zinc-400">
-              <li>Browse our gallery of top cute girls and Dehradun call girls.</li>
-              <li>Select the partner you want.</li>
-              <li>Call us, chat with us on WhatsApp, or email us.</li>
-              <li>Communicate the needs – time, place, and length.</li>
-              <li>Confirm the booking.</li>
-              <li>Enjoy your meeting.</li>
+              <li>We only work with real and verified Dehradun call girl services.</li>
+              <li>All meetings are confidential and protected.</li>
+              <li>We are a quality company with reasonable prices.</li>
+              <li>We are available 24 hours a day.</li>
+              <li>It's easy and fast to book.</li>
             </ul>
-            <p>I will share the contact details of the Dehradun call girls. We will share the WhatsApp contact details and mobile contact number for Dehradun call girls only after we verify you. This makes it safe for both.</p>
-            <p>People randomly search for call girls' contact number in Dehradun. or Dehradun call girl mobile numbers. We assist real clients in a timely manner</p>
+            <p>We know that each client is unique. That is why we offer top Dehradun call girls who are cute and friendly. We strive to provide you with a great VIP experience each time.</p>
 
-            <h3 className="font-serif text-xl sm:text-2xl font-bold text-white mt-8 mb-4">All of The Data is Treated With Complete Privacy and Security.</h3>
-            <p>Our greatest commitment is to your privacy. By booking escort services in Dehradun with us, you will receive:</p>
+            <h3 className="font-serif text-xl sm:text-2xl font-bold text-white mt-8 mb-4">What Makes Us Different</h3>
+            <p>In Dehradun, there are plenty of agencies providing Dehradun escort services. What We Have Going for Us:</p>
             <ul className="list-disc pl-6 space-y-2 text-zinc-400">
-              <li>No sharing of personal information</li>
-              <li>Safe meeting locations</li>
-              <li>Girls will act in a professional and respectful manner.</li>
-              <li>Full support prior to, during and following the meeting</li>
+              <li>Only real photos and real profiles.</li>
+              <li>Friendly and courteous guests</li>
+              <li>Flexible timings</li>
+              <li>Best rates and no hidden charges policy.</li>
+              <li>Quick and prompt answer to all queries</li>
             </ul>
-            <p>We take safety seriously. All our independent call girls in Dehradun have been properly checked. This aids in keeping high standards.</p>
-
-            <h3 className="font-serif text-xl sm:text-2xl font-bold text-white mt-8 mb-4">The Areas That We Cover in Dehradun are:</h3>
-            <p>Our call girls are available throughout the city in Dehradun:</p>
-            <ul className="list-disc pl-6 space-y-2 text-zinc-400">
-              <li>Rajpur Road</li>
-              <li>Mussoorie Road</li>
-              <li>Clock Tower Area</li>
-              <li>Sahastradhara</li>
-              <li>Prem Nagar</li>
-              <li>Subhash Road</li>
-            </ul>
-            <p>All major hotels and guesthouses have wireless Internet access.</p>
-            <p>We're able to arrange a Dehradun call girl near you with ease wherever you are in Dehradun.</p>
-
-            <h3 className="font-serif text-xl sm:text-2xl font-bold text-white mt-8 mb-4">Ready to Book Your Companion?</h3>
-            <p>Don’t wait any longer. If you are looking for a call girl in Dehradun, a Dehradun escort service can help. We have the best Dehradun call girls and high-profile Dehradun call girls; we are ready to serve you.</p>
-            <p>Contact us now for Dehradun call girl numbers and call girl numbers in Dehradun. Or the Dehradun call girl WhatsApp number. Our friendly team is available 24 hours a day to help you.</p>
-            <p>Celebrate Dehradun with the best of cute Dehradun call girls. You will have an experience that you will never forget.</p>
+            <p>It is a service that is consistent with clients' expectations and they keep coming back. Our out-of-the-ordinary escort service in Dehradun is really luxurious.</p>
           </article>
         </div>
       </section>
@@ -442,7 +415,7 @@ export default function Home() {
                   <div className="space-y-1">
                     <div className="flex items-center gap-1.5">
                       <div className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
-                      <span className="font-sans text-[10px] tracking-widest text-emerald-400 font-bold uppercase">AVAILABLE IN DEHRADUN</span>
+                      <span className="font-sans text-[10px] tracking-widest text-emerald-400 font-bold uppercase">AVAILABLE IN Dehradun</span>
                     </div>
                     <h3 className="font-serif text-3xl font-extrabold text-white">{selectedEscort.name}</h3>
                     <p className="font-sans text-[10px] text-zinc-400 uppercase tracking-widest">Selected Executive Roster</p>

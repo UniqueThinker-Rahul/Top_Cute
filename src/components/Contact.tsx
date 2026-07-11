@@ -21,7 +21,7 @@ export default function Contact() {
         
         <div className="relative z-10 text-center max-w-4xl mx-auto px-4 space-y-3">
           <span className="font-sans text-[10px] font-black tracking-[0.3em] text-luxury-gold uppercase block">
-            SECURE ACCESS DEHRADUN
+            SECURE ACCESS Dehradun
           </span>
           <h2 className="font-serif text-3xl sm:text-5xl font-black text-white leading-tight">
             Contact Us

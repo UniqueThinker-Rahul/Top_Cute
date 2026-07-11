@@ -117,19 +117,16 @@ export default function ServiceDetail() {
                 {/* Elegant typography,light gray paragraphs with leading-relaxed */}
                 <div className="font-sans text-sm sm:text-base text-zinc-400 font-light leading-relaxed space-y-6">
                   <p>
-                    Each Companion service session we coordinate represents a commitment to high-society leisure and private hospitality standards. 
-                    We understand that an dynamic gentleman seeks more than standard entertainment—he appreciates visual grace, conversational agility, 
-                    and true connection in five-star settings.
+                    Each Companion service session we coordinate represent a commit to high-society leisure and private hospitality standards. We understand the dynamic gentleman try more than standard entertainment he appreciates visual grace, Flexibility, and true connection in fivestar settings.
                   </p>
                   
                   <p>
-                    Whether you are arranging a celebratory event, attending executive meetings at premium heritage lounges on Rajpur Road, 
-                    or taking a quiet travel retreat near Mussoorie hills, our models adapt flawlessly to your specific environment. They arrive with immaculate 
-                    personal grooming, pristine attire selection, and absolute dedication to your absolute comfort.
+                   When you are arranging a celebratory event, for executive meetings at premium heritage lounges on Rajpur Road, or taking to a quiet travel retreat near Mussoorie hills, our models adapt flawlessly to the your specific environment. They arrive with immaculate personal grooming, pristine attire selection, and absolute dedication to your absolute comfort.
+
                   </p>
 
                   <p>
-                    Secure bookings are managed with complete secrecy, bypassing standard logs. Your privacy is protected with dedicated local dispatch procedures.
+                    Secure bookings are managed with the complete secrecy, bypassing standard rules. We protect your privacy with the new dedicated local dispatch procedures.
                   </p>
                 </div>
               </div>
@@ -176,7 +173,8 @@ export default function ServiceDetail() {
                     </div>
                     <h4 className="font-serif text-base font-bold text-white">On-Time Arrival</h4>
                     <p className="font-sans text-xs text-zinc-400 font-light leading-relaxed">
-                      Time is precious. Our dedicated escort dispatch networks ensure prompt, discreet arrival directly to your room suite.
+                      Time is precious. Our escort dispatch networks ensure prompt, discreet arrival directly to your room suite.
+
                     </p>
                   </div>
 
@@ -187,8 +185,7 @@ export default function ServiceDetail() {
                     </div>
                     <h4 className="font-serif text-base font-bold text-white">Verified Photos</h4>
                     <p className="font-sans text-xs text-zinc-400 font-light leading-relaxed">
-                      What you see is who you meet. All featured models are 100% verified to match their photos, eliminating surprises.
-                    </p>
+                      What you see is who you meet. All featured models are fully 100% verified to match their photos, eliminating surprises.</p>
                   </div>
 
                   {/* Grid Box 3: Elite Privacy */}
@@ -198,7 +195,8 @@ export default function ServiceDetail() {
                     </div>
                     <h4 className="font-serif text-base font-bold text-white">Elite Privacy</h4>
                     <p className="font-sans text-xs text-zinc-400 font-light leading-relaxed">
-                      Your identity is sacred. We enforce complete, residual security that deletes booking trails automatically.
+                      
+Your identity is sacred. We enforce the complete, residual security who deletes booking trails automatically.
                     </p>
                   </div>
 

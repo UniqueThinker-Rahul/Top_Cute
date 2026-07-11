@@ -28,9 +28,9 @@ export default function Home() {
       
       {/* Hidden Semantic SEO Anchor Block for Crawler Ranking Signals */}
       <div className="sr-only">
-        <h2>Top Dehradun call girls - VIP dehradun call girl solutions</h2>
-        <p>Book high profile Dehradun call girls and elite independent call girls dehradun easily. Our agency offers exceptional call girl service in dehradun for discerning guests.</p>
-        <p>Quick access keys: Dehradun call girl number, call girls number in dehradun, Dehradun call girl WhatsApp number, Dehradun call girl mobile number.</p>
+        <h2>Top Dehradun call girls - VIP Dehradun call girl solutions</h2>
+        <p>Book high profile Dehradun call girls and elite independent call girls Dehradun easily. Our agency offers exceptional call girl service in Dehradun for discerning guests.</p>
+        <p>Quick access keys: Dehradun call girl number, call girls number in Dehradun, Dehradun call girl WhatsApp number, Dehradun call girl mobile number.</p>
       </div>
 
       {/* 1. Hero Section */}
@@ -42,7 +42,7 @@ export default function Home() {
           <div className="absolute top-0 left-0 w-full h-[55vh]">
             <img
               src="/Dehradun%20escort%20service.webp"
-              alt="Dehradun escort service and call girl dehradun premium portal backdrop"
+              alt="Dehradun escort service and call girl Dehradun premium portal backdrop"
               className="w-full h-full object-cover object-top"
               referrerPolicy="no-referrer"
               fetchPriority="high"
@@ -56,7 +56,7 @@ export default function Home() {
         <div className="hidden sm:block absolute inset-0 z-0">
           <img
             src="/Top%20Dehradun%20call%20girls.webp"
-            alt="Top Dehradun call girls and exclusive escort service dehradun portfolio"
+            alt="Top Dehradun call girls and exclusive escort service Dehradun portfolio"
             className="w-full h-full object-cover object-center"
             referrerPolicy="no-referrer"
             fetchPriority="high"
@@ -77,7 +77,7 @@ export default function Home() {
             className="space-y-4"
           >
             <span className="font-sans text-[10px] sm:text-xs md:text-sm font-black tracking-[0.3em] text-white uppercase block animate-pulse drop-shadow-md">
-              DEHRADUN'S PREMIER HOSTESS AGENCY
+              Dehradun'S PREMIER HOSTESS AGENCY
             </span>
             <h1 className="font-serif text-3xl sm:text-4.5xl md:text-6.5xl font-extrabold text-white leading-tight tracking-tight drop-shadow-lg">
               Premium Dehradun <br className="hidden sm:block" />
@@ -93,7 +93,7 @@ export default function Home() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="font-sans text-xs sm:text-sm md:text-lg text-zinc-100 max-w-2xl mx-auto font-light leading-relaxed drop-shadow-md px-2"
           >
-            Elegance, privacy, and premium companionship. Experience signature leisure escapes with Uttarakhand's finest selected high-profile ladies and VIP dehradun call girl options.
+            Elegance, privacy, and premium companionship. Experience signature leisure escapes with Uttarakhand's finest selected high-profile ladies and VIP Dehradun call girl options.
           </motion.p>
 
           <motion.div
@@ -167,7 +167,7 @@ export default function Home() {
             <div className="relative rounded-2xl overflow-hidden border border-zinc-200 shadow-2xl aspect-[4/3] bg-zinc-200">
               <img
                 src="/Dehradun call girls near me.webp"
-                alt="Elite Suite Hospitality featuring premier escort dehradun profiles"
+                alt="Elite Suite Hospitality featuring premier escort Dehradun profiles"
                 className="w-full h-full object-cover object-center filter sepia-[0.1] brightness-95"
                 referrerPolicy="no-referrer"
               />
@@ -190,7 +190,7 @@ export default function Home() {
             <span className="font-sans text-xs font-bold tracking-[0.3em] text-luxury-gold uppercase block">
               CURATED ESCORT ROSTER
             </span>
-            <div className="sr-only">Featuring verified options for an independent call girls dehradun arrangement.</div>
+            <div className="sr-only">Featuring verified options for an independent call girls Dehradun arrangement.</div>
             <h2 className="font-serif text-3xl sm:text-5xl font-extrabold text-white leading-tight">
               Featured <span className="text-luxury-gold italic">Companions</span>
             </h2>
@@ -258,70 +258,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 4. Features/Trust Section */}
-      <section className="py-20 sm:py-24 bg-luxury-card border-b border-luxury-gold/10 relative overflow-hidden">
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-luxury-gold/[0.02] rounded-full filter blur-[150px] pointer-events-none" />
-
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-12">
-
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              className="text-center space-y-4"
-            >
-              <div className="mx-auto w-14 h-14 bg-luxury-gold/10 border border-luxury-gold/30 rounded-2xl flex items-center justify-center text-luxury-gold shadow-md">
-                <ShieldCheck className="w-7 h-7" />
-              </div>
-              <h3 className="font-serif text-lg sm:text-xl font-bold text-white tracking-wide">
-                100% Private & Confidential
-              </h3>
-              <p className="font-sans text-sm text-zinc-400 font-light leading-relaxed max-w-sm mx-auto">
-                No identity checks logged and zero residual profiles. We protect standard client logs instantly from access, guaranteeing complete, seamless privacy.
-              </p>
-            </motion.div>
-
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: 0.1 }}
-              className="text-center space-y-4"
-            >
-              <div className="mx-auto w-14 h-14 bg-luxury-gold/10 border border-luxury-gold/30 rounded-2xl flex items-center justify-center text-luxury-gold shadow-md">
-                <Sparkles className="w-7 h-7" />
-              </div>
-              <h3 className="font-serif text-lg sm:text-xl font-bold text-white tracking-wide">
-                Beautiful & Professional
-              </h3>
-              <p className="font-sans text-sm text-zinc-400 font-light leading-relaxed max-w-sm mx-auto">
-                Carefully chosen, charming models exhibiting five-star hospitality standards. Intelligent, multilingual conversation partners for gentlemen.
-              </p>
-            </motion.div>
-
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: 0.2 }}
-              className="text-center space-y-4"
-            >
-              <div className="mx-auto w-14 h-14 bg-luxury-gold/10 border border-luxury-gold/30 rounded-2xl flex items-center justify-center text-luxury-gold shadow-md">
-                <Star className="w-7 h-7" />
-              </div>
-              <h3 className="font-serif text-lg sm:text-xl font-bold text-white tracking-wide">
-                VIP Escort Service
-              </h3>
-              <p className="font-sans text-sm text-zinc-400 font-light leading-relaxed max-w-sm mx-auto">
-                Elite resort visits and premium mountain companionship across Dehradun. Specially customized escapes to Mussoorie and wellness hill spas.
-              </p>
-            </motion.div>
-
-          </div>
-        </div>
-      </section>
-
       {/* ========================================= */}
       {/* SEMANTIC SEO ARTICLE BLOCK (SWAPPED CONTENT) */}
       {/* ========================================= */}
@@ -329,7 +265,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <article className="bg-[#141925]/60 border border-luxury-gold/20 rounded-3xl p-8 sm:p-12 shadow-2xl text-zinc-300 font-sans text-sm sm:text-base font-light leading-relaxed space-y-6">
             <h2 className="font-serif text-2xl sm:text-3xl font-bold text-luxury-gold mb-4">Premium Dehradun Call Girls & Escort Service</h2>
-            <p>Welcome to the best Dehradun call girls in the city. Looking for cute top Dehradun call girl services? A rellable Dehradun escort service. Or perhaps high-class Dehradun escorts. You've come to the right place. The time spent in Dehradun is really special thanks to her. Meetings are different and new every time. More comfortable. It's more personal.</p>
+            <p>Welcome to the best <a href="https://www.topcutegirls.org/" className="text-luxury-gold hover:underline font-bold transition-colors cursor-pointer">Dehradun call girls</a> in the city. Looking for cute top Dehradun call girl services? A rellable Dehradun escort service. Or perhaps high-class Dehradun escorts. You've come to the right place. The time spent in Dehradun is really special thanks to her. Meetings are different and new every time. More comfortable. It's more personal.</p>
             <p>We're known for our honesty and satisfaction. That's what people remember. Whether you need a VIP Dehradun call girl or independent call girls in Dehradun. In Dehradun we have a Russian call girl service. There are many of them available to choose from it.</p>
 
             <h3 className="font-serif text-xl sm:text-2xl font-bold text-white mt-8 mb-4">Trusted Dehradun Escort Agency</h3>
@@ -415,7 +351,7 @@ export default function Home() {
                   <div className="space-y-1">
                     <div className="flex items-center gap-1.5">
                       <div className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
-                      <span className="font-sans text-[10px] tracking-widest text-emerald-400 font-bold uppercase">AVAILABLE IN DEHRADUN</span>
+                      <span className="font-sans text-[10px] tracking-widest text-emerald-400 font-bold uppercase">AVAILABLE IN Dehradun</span>
                     </div>
                     <h3 className="font-serif text-3xl font-extrabold text-white">{selectedEscort.name}</h3>
                     <p className="font-sans text-[10px] text-zinc-400 uppercase tracking-widest">Selected Executive Roster</p>

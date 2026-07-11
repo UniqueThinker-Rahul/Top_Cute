@@ -150,7 +150,7 @@ export default function App() {
             <Route path="/service/:id" element={<ServiceDetail />} />
 
             {/* Location SEO Landing Pages (Kept separate intentionally) */}
-            <Route path="/dehradun" element={<Dehradun />} />
+            <Route path="/Dehradun" element={<Dehradun />} />
             <Route path="/bangalore" element={<Bangalore />} />
             <Route path="/lucknow" element={<Lucknow />} />
             <Route path="/hyderabad" element={<Hyderabad />} />

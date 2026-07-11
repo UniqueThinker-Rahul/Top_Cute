@@ -26,9 +26,9 @@ export default function Footer() {
     >
       {/* Hidden Semantic SEO Anchor Block for Crawler Ranking Signals */}
       <div className="sr-only">
-        <h3>Independent call girls dehradun — High profile Dehradun call girls</h3>
-        <p>Secure premium call girl service in dehradun or find top-rated call girls in dehradun through our platform. We keep client metrics safe across our high class dehradun escort network.</p>
-        <p>Direct Hotlines: Dehradun call girl number, call girls number in dehradun, Dehradun call girl WhatsApp number, Dehradun call girl mobile number for secure bookings.</p>
+        <h3>Independent call girls Dehradun — High profile Dehradun call girls</h3>
+        <p>Secure premium call girl service in Dehradun or find top-rated call girls in Dehradun through our platform. We keep client metrics safe across our high class Dehradun escort network.</p>
+        <p>Direct Hotlines: Dehradun call girl number, call girls number in Dehradun, Dehradun call girl WhatsApp number, Dehradun call girl mobile number for secure bookings.</p>
       </div>
 
       {/* Decorative Blur and grid overlay */}
@@ -88,7 +88,7 @@ export default function Footer() {
               {/* Updated Logo Image */}
               <img 
                 src="/TCG logo.webp" 
-                alt="Top Cute Girls Logo - Leading provider of top Dehradun call girls and independent call girls dehradun" 
+                alt="Top Cute Girls Logo - Leading provider of top Dehradun call girls and independent call girls Dehradun" 
                 className="w-[54px] h-[54px] shrink-0 object-contain" 
               />
               <div className="flex flex-col items-start gap-0">

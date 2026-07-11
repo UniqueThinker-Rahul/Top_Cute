@@ -26,7 +26,7 @@ export default function Dehradun() {
         <div className="block sm:hidden absolute inset-0 z-0 bg-[#0a0d14]">
           <div className="absolute top-0 left-0 w-full h-[55vh]">
             <img
-              src="/Call girls number in dehradun.webp"
+              src="/Call girls number in Dehradun.webp"
               alt="Dehradun Premium Companion"
               className="w-full h-full object-cover object-top"
               referrerPolicy="no-referrer"
@@ -39,7 +39,7 @@ export default function Dehradun() {
         {/* Desktop View Background */}
         <div className="hidden sm:block absolute inset-0 z-0">
           <img
-            src="/Call girls number in dehradun.webp"
+            src="/Call girls number in Dehradun.webp"
             alt="Dehradun Premium Companion"
             className="w-full h-full object-cover object-center"
             referrerPolicy="no-referrer"
@@ -159,7 +159,7 @@ export default function Dehradun() {
           
           <div className="text-center max-w-2xl mx-auto mb-12 sm:mb-16 space-y-4">
             <span className="font-sans text-xs font-bold tracking-[0.3em] text-luxury-gold uppercase block">
-              DEHRADUN ESCORT ROSTER
+              Dehradun ESCORT ROSTER
             </span>
             <h2 className="font-serif text-3xl sm:text-5xl font-extrabold text-white leading-tight">
               Featured <span className="text-luxury-gold italic">Companions</span>
@@ -207,7 +207,7 @@ export default function Dehradun() {
         </div>
       </section>
 
-      {/* MODAL SHEET FOR DEHRADUN */}
+      {/* MODAL SHEET FOR Dehradun */}
       <AnimatePresence>
         {selectedEscort && (
           <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
@@ -221,7 +221,7 @@ export default function Dehradun() {
                 <button onClick={() => setSelectedEscort(null)} className="absolute top-6 right-6 bg-luxury-card text-zinc-400 p-2 rounded-full hidden md:block"><X className="w-4 h-4" /></button>
                 <div className="space-y-6">
                   <div className="space-y-1">
-                    <span className="font-sans text-[10px] tracking-widest text-emerald-400 font-bold uppercase">AVAILABLE IN DEHRADUN</span>
+                    <span className="font-sans text-[10px] tracking-widest text-emerald-400 font-bold uppercase">AVAILABLE IN Dehradun</span>
                     <h3 className="font-serif text-3xl font-extrabold text-white">{selectedEscort.name}</h3>
                   </div>
                   <div className="grid grid-cols-2 gap-3.5 bg-luxury-card border border-luxury-gold/15 rounded-2xl p-4">
