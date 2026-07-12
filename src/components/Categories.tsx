@@ -34,9 +34,9 @@ export default function Categories() {
   return (
     <div className="bg-[#0a0d14] text-white">
       <div className="sr-only">
-        <h2>Dehradun call girl service - Call girl dehradun - Dehradun escort service</h2>
-        <p>Providing premium escort service dehradun, Dehradun escort selections, and professional escorts in dehradun. Get trusted options for an independent escort dehradun or a luxury Dehradun escort girl encounter.</p>
-        <p>Connect instantly via our official Dehradun call girl number, premium call girls number in dehradun, or save our dedicated Dehradun call girl WhatsApp number and Dehradun call girl mobile number for immediate bookings.</p>
+        <h2>Dehradun call girl service - Call girl Dehradun - Dehradun escort service</h2>
+        <p>Providing premium escort service Dehradun, Dehradun escort selections, and professional escorts in Dehradun. Get trusted options for an independent escort Dehradun or a luxury Dehradun escort girl encounter.</p>
+        <p>Connect instantly via our official Dehradun call girl number, premium call girls number in Dehradun, or save our dedicated Dehradun call girl WhatsApp number and Dehradun call girl mobile number for immediate bookings.</p>
       </div>
 
       <section className="relative py-20 bg-[#0a0d14] border-b border-luxury-gold/20 overflow-hidden">
@@ -52,7 +52,7 @@ export default function Categories() {
             initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.1 }}
             className="text-zinc-400 max-w-2xl mx-auto mb-8 text-sm md:text-base"
           >
-            Explore our diverse portfolio of elite companions, offering the finest choices for a premium Call girl dehradun or an exclusive Dehradun escort.
+            Explore our diverse portfolio of elite companions, offering the finest choices for a premium Call girl Dehradun or an exclusive Dehradun escort.
           </motion.p>
         </div>
       </section>
@@ -93,7 +93,7 @@ export default function Categories() {
           <div className="w-full md:w-1/2 p-8 md:p-16">
             <h2 className="text-3xl md:text-4xl font-serif font-bold text-luxury-gold mb-6">For the Discerning Gentleman</h2>
             <p className="text-zinc-300 mb-6 leading-relaxed">
-              Experience signature companionship that transcends the ordinary with our elite roster of high class dehradun escort models.
+              Experience signature companionship that transcends the ordinary with our elite roster of high class Dehradun escort models.
             </p>
             <ul className="space-y-4 mb-8 text-sm text-zinc-400">
               <li className="flex items-center gap-3"><Shield className="text-luxury-gold w-5 h-5" /> 100% Verified & Discreet</li>
