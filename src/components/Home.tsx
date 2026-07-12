@@ -93,7 +93,7 @@ export default function Home() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="font-sans text-xs sm:text-sm md:text-lg text-zinc-100 max-w-2xl mx-auto font-light leading-relaxed drop-shadow-md px-2"
           >
-            Elegance, privacy, and premium companionship. Experience signature leisure escapes with Uttarakhand's finest selected high-profile ladies and VIP Dehradun call girl options.
+            Enjoy luxury seclusion and outstanding hospitality. Just chill and have a special trip from Uttarakhand. Take time out with the highest class of ladies and VIP Dehradun call girls.
           </motion.p>
 
           <motion.div
