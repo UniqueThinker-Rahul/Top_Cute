@@ -232,7 +232,7 @@ Your identity is sacred. We enforce the complete, residual security who deletes 
                     className="flex items-center justify-center gap-2 w-full bg-gradient-to-r from-luxury-gold to-yellow-600 hover:brightness-105 text-black font-sans font-black text-xs uppercase tracking-widest py-3.5 rounded-xl shadow-md cursor-pointer transition-all duration-200"
                   >
                     <Phone className="w-4 h-4 fill-black" />
-                    <span>Call Now: +91 99962 65679</span>
+                    <span>Call Now: +91 0000000000</span>
                   </a>
 
                   <a
