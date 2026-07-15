@@ -37,12 +37,13 @@ export default function Home() {
       <section
         id="home"
         className="relative w-full flex items-center justify-center bg-luxury-bg overflow-hidden pt-20 pb-10 sm:py-0 min-h-[600px] lg:min-h-[558px]"
+        aria-label="Hero section"
       >
         <div className="block sm:hidden absolute inset-0 z-0 bg-[#0a0d14]">
           <div className="absolute top-0 left-0 w-full h-[55vh]">
             <img
               src="/Dehradun%20escort%20service.webp"
-              alt="Dehradun escort service and call girl Dehradun premium portal backdrop"
+              alt="Premium Dehradun escort service and call girl portal"
               className="w-full h-full object-cover object-top"
               referrerPolicy="no-referrer"
               fetchPriority="high"
@@ -56,7 +57,7 @@ export default function Home() {
         <div className="hidden sm:block absolute inset-0 z-0">
           <img
             src="/Top%20Dehradun%20call%20girls.webp"
-            alt="Top Dehradun call girls and exclusive escort service Dehradun portfolio"
+            alt="Top Dehradun call girls and exclusive escort service portfolio"
             className="w-full h-full object-cover object-center"
             referrerPolicy="no-referrer"
             fetchPriority="high"
@@ -106,8 +107,9 @@ export default function Home() {
               id="hero-direct-booking"
               href="tel:000000000"
               className="flex items-center justify-center gap-2.5 w-full sm:w-auto min-w-[210px] bg-gradient-to-r from-luxury-gold to-yellow-600 hover:brightness-110 text-black font-sans font-black text-[11px] sm:text-xs uppercase tracking-widest py-4 px-8 rounded-full shadow-xl shadow-luxury-gold/10 hover:shadow-luxury-gold/30 hover:scale-102 transition-all duration-300"
+              aria-label="Call to book Dehradun call girls service"
             >
-              <Phone className="w-4 h-4 fill-black" />
+              <Phone className="w-4 h-4 fill-black" aria-hidden="true" />
               <span>Direct Booking</span>
             </a>
 
@@ -115,8 +117,9 @@ export default function Home() {
               id="hero-view-gallery"
               onClick={() => handleScrollToSection('main-gallery')}
               className="flex items-center justify-center gap-2.5 w-full sm:w-auto min-w-[210px] bg-[#220810]/70 backdrop-blur-md hover:bg-[#220810]/95 text-white font-sans font-black text-[11px] sm:text-xs uppercase tracking-widest py-4 px-8 rounded-full border border-luxury-gold/25 hover:border-luxury-gold/60 shadow-lg hover:scale-102 transition-all duration-300 cursor-pointer"
+              aria-label="View gallery of Dehradun escort profiles"
             >
-              <Sparkles className="w-4 h-4 text-luxury-gold" />
+              <Sparkles className="w-4 h-4 text-luxury-gold" aria-hidden="true" />
               <span>View Gallery</span>
             </button>
           </motion.div>
@@ -127,6 +130,7 @@ export default function Home() {
       <section
         id="about-intro"
         className="py-20 sm:py-24 bg-zinc-50 text-zinc-900 border-y border-zinc-200 relative"
+        aria-label="About Dehradun escort service"
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
 
@@ -156,9 +160,10 @@ export default function Home() {
                 id="intro-scroll-escorts"
                 onClick={() => handleScrollToSection('main-gallery')}
                 className="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-amber-700 hover:text-amber-900 transition-colors duration-200 group cursor-pointer"
+                aria-label="Browse curated Dehradun escort collection"
               >
                 <span>Browse our curated collection</span>
-                <span className="transform group-hover:translate-x-1 transition-transform">→</span>
+                <span className="transform group-hover:translate-x-1 transition-transform" aria-hidden="true">→</span>
               </button>
             </div>
           </div>
@@ -167,9 +172,10 @@ export default function Home() {
             <div className="relative rounded-2xl overflow-hidden border border-zinc-200 shadow-2xl aspect-[4/3] bg-zinc-200">
               <img
                 src="/Dehradun call girls near me.webp"
-                alt="Elite Suite Hospitality featuring premier escort Dehradun profiles"
+                alt="Elite Suite Hospitality featuring premier Dehradun escort profiles"
                 className="w-full h-full object-cover object-center filter sepia-[0.1] brightness-95"
                 referrerPolicy="no-referrer"
+                loading="lazy"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/55 to-transparent" />
               <div className="absolute bottom-6 left-6 text-white">
@@ -183,14 +189,14 @@ export default function Home() {
       </section>
 
       {/* 3. Featured Profiles Grid Section */}
-      <section id="featured-escorts" className="py-20 sm:py-24 bg-luxury-bg border-b border-luxury-gold/10">
+      <section id="featured-escorts" className="py-20 sm:py-24 bg-luxury-bg border-b border-luxury-gold/10" aria-label="Featured Dehradun escorts">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
           <div className="text-center max-w-2xl mx-auto mb-12 sm:mb-16 space-y-4">
             <span className="font-sans text-xs font-bold tracking-[0.3em] text-luxury-gold uppercase block">
               CURATED ESCORT ROSTER
             </span>
-            <div className="sr-only">Featuring verified options for an independent call girls Dehradun arrangement.</div>
+            <div className="sr-only">Featuring verified options for independent call girls Dehradun arrangement.</div>
             <h2 className="font-serif text-3xl sm:text-5xl font-extrabold text-white leading-tight">
               Featured <span className="text-luxury-gold italic">Companions</span>
             </h2>
@@ -206,7 +212,7 @@ export default function Home() {
                 key={escort.id}
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }} /* FIX: Corrected typo 'his: true' to 'once: true' to prevent forced reflows */
+                viewport={{ once: true }}
                 transition={{ duration: 0.5 }}
                 onClick={() => setSelectedEscort(escort)}
                 className="group relative bg-white rounded-2xl overflow-hidden border border-zinc-200 transition-all duration-300 shadow-xl flex flex-col h-full cursor-pointer hover:border-luxury-gold/50"
@@ -214,9 +220,10 @@ export default function Home() {
                 <div className="relative aspect-[3/4] overflow-hidden bg-zinc-950">
                   <img
                     src={escort.image}
-                    alt={`${escort.name} - Premium high profile Dehradun call girls selection`}
+                    alt={`${escort.name} - Premium Dehradun call girl profile`}
                     className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500 filter sepia-[0.1]"
                     referrerPolicy="no-referrer"
+                    loading="lazy"
                   />
 
                   <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center z-10">
@@ -247,7 +254,7 @@ export default function Home() {
                     <p className="font-sans text-xs text-zinc-700 truncate max-w-[140px]">{escort.languages.join(', ')}</p>
                   </div>
                   <div className="text-right flex items-center gap-1 bg-zinc-50 border border-zinc-150 py-1 px-2.5 rounded-lg">
-                    <Star className="w-3.5 h-3.5 fill-luxury-gold text-luxury-gold shrink-0" />
+                    <Star className="w-3.5 h-3.5 fill-luxury-gold text-luxury-gold shrink-0" aria-hidden="true" />
                     <span className="font-sans text-xs font-bold text-zinc-800">{escort.rating}</span>
                   </div>
                 </div>
@@ -261,26 +268,35 @@ export default function Home() {
       {/* ========================================= */}
       {/* SEMANTIC SEO ARTICLE BLOCK (SWAPPED CONTENT) */}
       {/* ========================================= */}
-      <section id="seo-content" className="py-20 bg-luxury-bg border-b border-luxury-gold/10 relative overflow-hidden">
+      <section id="seo-content" className="py-20 bg-luxury-bg border-b border-luxury-gold/10 relative overflow-hidden" aria-label="SEO article about Dehradun escort service">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <article className="bg-[#141925]/60 border border-luxury-gold/20 rounded-3xl p-8 sm:p-12 shadow-2xl text-zinc-300 font-sans text-sm sm:text-base font-light leading-relaxed space-y-6">
             <h2 className="font-serif text-2xl sm:text-3xl font-bold text-luxury-gold mb-4">Premium Dehradun Call Girls & Escort Service</h2>
-            <p>Welcome to the best <a href="https://www.topcutegirls.org/" className="text-luxury-gold hover:underline font-bold transition-colors cursor-pointer">Dehradun call girls</a> in the city. Looking for cute top Dehradun call girl services? A rellable Dehradun escort service. Or perhaps high-class Dehradun escorts. You've come to the right place. The time spent in Dehradun is really special thanks to her. Meetings are different and new every time. More comfortable. It's more personal.</p>
+            
+            <p>Welcome to the best Dehradun call girls in the city. Looking for cute top Dehradun call girl services? A reliable Dehradun escort service. Or perhaps high-class Dehradun escorts. You've come to the right place. The time spent in Dehradun is really special thanks to her. Meetings are different and new every time. More comfortable. It's more personal.</p>
+            
             <p>We're known for our honesty and satisfaction. That's what people remember. Whether you need a VIP Dehradun call girl or independent call girls in Dehradun. In Dehradun we have a Russian call girl service. There are many of them available to choose from it.</p>
 
             <h3 className="font-serif text-xl sm:text-2xl font-bold text-white mt-8 mb-4">Trusted Dehradun Escort Agency</h3>
-            <p>Professionalism is that what our Dehradun escort service stands for. true companionship, privacy, and customer satisfaction. If you want some company for a few hours or the entire evening. We strive to ensure pleasant and luxurious experience.</p>
+            
+            <p>Professionalism is that what our Dehradun escort service stands for. True companionship, privacy, and customer satisfaction. If you want some company for a few hours or the entire evening. We strive to ensure pleasant and luxurious experience.</p>
 
             <h3 className="font-serif text-xl sm:text-2xl font-bold text-white mt-8 mb-4">100% Private and Confidential Escort Service</h3>
-            <p>Our top priority is always to maintain your privacy and confidentiality. All bookings, discussions, and personal information are kept confidential. Clients can call or WhatsApp us for Instant assistance and hassle-free booking.</p>
+            
+            <p>Our top priority is always to maintain your privacy and confidentiality. All bookings, discussions, and personal information are kept confidential. Clients can call or WhatsApp us for instant assistance and hassle-free booking.</p>
+            
             <p>If you're searching for Dehradun call girls in the area, book your trip ahead of time. Our support team makes the process of booking simple and professional.</p>
 
             <h3 className="font-serif text-xl sm:text-2xl font-bold text-white mt-8 mb-4">VIP Escort Service in Dehradun</h3>
+            
             <p>Our VIP escort service in Dehradun is designed for those who are looking for a VIP experience. It's ideal for corporate events and fancy meals. Private events, social events and special outings.</p>
+            
             <p>These elegant friends are specially selected. They provide elegant company and memorable experiences for high-profile clients.</p>
 
             <h3 className="font-serif text-xl sm:text-2xl font-bold text-white mt-8 mb-4">Why Clients Trust Our Dehradun Escort Service</h3>
+            
             <p>Dehradun is a wonderful city with a lovely climate, good food and nice hotels. Many businessmen. Tourists and locals look for safe and fun escort services in Dehradun. Here is why they choose us:</p>
+            
             <ul className="list-disc pl-6 space-y-2 text-zinc-400">
               <li>We only work with real and verified Dehradun call girl services.</li>
               <li>All meetings are confidential and protected.</li>
@@ -288,10 +304,13 @@ export default function Home() {
               <li>We are available 24 hours a day.</li>
               <li>It's easy and fast to book.</li>
             </ul>
+            
             <p>We know that each client is unique. That is why we offer top Dehradun call girls who are cute and friendly. We strive to provide you with a great VIP experience each time.</p>
 
             <h3 className="font-serif text-xl sm:text-2xl font-bold text-white mt-8 mb-4">What Makes Us Different</h3>
+            
             <p>In Dehradun, there are plenty of agencies providing Dehradun escort services. What We Have Going for Us:</p>
+            
             <ul className="list-disc pl-6 space-y-2 text-zinc-400">
               <li>Only real photos and real profiles.</li>
               <li>Friendly and courteous guests</li>
@@ -299,7 +318,10 @@ export default function Home() {
               <li>Best rates and no hidden charges policy.</li>
               <li>Quick and prompt answer to all queries</li>
             </ul>
+            
             <p>It is a service that is consistent with clients' expectations and they keep coming back. Our out-of-the-ordinary escort service in Dehradun is really luxurious.</p>
+            
+            <p>For booking <strong>Dehradun call girls</strong> or <strong>independent call girls Dehradun</strong>, contact our agency today. We offer <strong>VIP Dehradun call girl</strong> service and <strong>high profile Dehradun call girls</strong> for discerning clients. Get the <strong>Dehradun call girl number</strong> or <strong>Dehradun call girl WhatsApp number</strong> by calling us now.</p>
           </article>
         </div>
       </section>
@@ -307,13 +329,14 @@ export default function Home() {
       {/* COMPANION DETAILED MODAL SHEET */}
       <AnimatePresence>
         {selectedEscort && (
-          <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
+          <div className="fixed inset-0 z-50 flex items-center justify-center p-4" role="dialog" aria-modal="true" aria-label={`Profile of ${selectedEscort.name}`}>
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
               onClick={() => setSelectedEscort(null)}
               className="absolute inset-0 bg-black/85 backdrop-blur-sm"
+              aria-hidden="true"
             />
 
             <motion.div
@@ -326,7 +349,7 @@ export default function Home() {
               <div className="relative h-72 md:h-full min-h-[320px] bg-zinc-950">
                 <img
                   src={selectedEscort.image}
-                  alt={selectedEscort.name}
+                  alt={`${selectedEscort.name} - Detailed profile`}
                   className="absolute inset-0 w-full h-full object-cover object-center filter sepia-[0.1]"
                   referrerPolicy="no-referrer"
                 />
@@ -334,6 +357,7 @@ export default function Home() {
                 <button
                   onClick={() => setSelectedEscort(null)}
                   className="md:hidden absolute top-4 right-4 bg-black/60 text-white p-2.5 rounded-full border border-white/20"
+                  aria-label="Close profile"
                 >
                   <X className="w-4 h-4" />
                 </button>
@@ -343,6 +367,7 @@ export default function Home() {
                 <button
                   onClick={() => setSelectedEscort(null)}
                   className="absolute top-6 right-6 bg-luxury-card hover:bg-[#20273a] text-zinc-400 p-2 rounded-full border border-luxury-gold/25 hover:text-luxury-gold transition-colors hidden md:block cursor-pointer"
+                  aria-label="Close profile"
                 >
                   <X className="w-4 h-4" />
                 </button>
@@ -350,8 +375,8 @@ export default function Home() {
                 <div className="space-y-6">
                   <div className="space-y-1">
                     <div className="flex items-center gap-1.5">
-                      <div className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
-                      <span className="font-sans text-[10px] tracking-widest text-emerald-400 font-bold uppercase">AVAILABLE IN Dehradun</span>
+                      <div className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" aria-hidden="true" />
+                      <span className="font-sans text-[10px] tracking-widest text-emerald-400 font-bold uppercase">AVAILABLE IN DEHRADUN</span>
                     </div>
                     <h3 className="font-serif text-3xl font-extrabold text-white">{selectedEscort.name}</h3>
                     <p className="font-sans text-[10px] text-zinc-400 uppercase tracking-widest">Selected Executive Roster</p>
@@ -368,13 +393,13 @@ export default function Home() {
                     </div>
                     <div>
                       <p className="font-sans text-[9px] text-zinc-400 uppercase tracking-widest font-semibold flex items-center gap-1">
-                        <Ruler className="w-3 h-3 text-luxury-gold" /> Dimensions
+                        <Ruler className="w-3 h-3 text-luxury-gold" aria-hidden="true" /> Dimensions
                       </p>
                       <p className="font-sans text-xs font-bold text-zinc-150">{selectedEscort.measurements}</p>
                     </div>
                     <div>
                       <p className="font-sans text-[9px] text-zinc-400 uppercase tracking-widest font-semibold flex items-center gap-1">
-                        <Languages className="w-3 h-3 text-luxury-gold" /> Languages
+                        <Languages className="w-3 h-3 text-luxury-gold" aria-hidden="true" /> Languages
                       </p>
                       <p className="font-sans text-[10px] font-bold text-zinc-150 truncate">{selectedEscort.languages.join(', ')}</p>
                     </div>
@@ -403,8 +428,9 @@ export default function Home() {
                     <a
                       href="tel:000000000"
                       className="flex items-center justify-center gap-2 bg-gradient-to-r from-luxury-gold to-yellow-600 hover:brightness-105 text-black font-sans font-black text-[10px] uppercase tracking-widest py-3 rounded-xl transition-all duration-200 shadow-md transform active:scale-95 cursor-pointer"
+                      aria-label={`Call to book ${selectedEscort.name}`}
                     >
-                      <Phone className="w-3.5 h-3.5 fill-black" />
+                      <Phone className="w-3.5 h-3.5 fill-black" aria-hidden="true" />
                       <span>Call Now</span>
                     </a>
 
@@ -413,8 +439,9 @@ export default function Home() {
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex items-center justify-center gap-2 bg-[#220810]/80 hover:bg-[#220810] text-white font-sans font-black text-[10px] uppercase tracking-widest py-3 rounded-xl border border-luxury-gold/25 hover:border-luxury-gold/50 transition-all duration-200 transform active:scale-95 cursor-pointer"
+                      aria-label={`WhatsApp to book ${selectedEscort.name}`}
                     >
-                      <MessageCircle className="w-3.5 h-3.5 text-emerald-500 fill-emerald-500/10" />
+                      <MessageCircle className="w-3.5 h-3.5 text-emerald-500 fill-emerald-500/10" aria-hidden="true" />
                       <span>WhatsApp</span>
                     </a>
                   </div>
