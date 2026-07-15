@@ -7,7 +7,6 @@ import { EscortProfile } from '../types';
 export default function Home() {
   const [selectedEscort, setSelectedEscort] = useState<EscortProfile | null>(null);
 
-  // Take exactly 4 profiles for the Featured Grid
   const featuredProfiles = escortsData.slice(0, 4);
 
   const handleScrollToSection = (id: string) => {
@@ -26,24 +25,24 @@ export default function Home() {
   return (
     <div className="overflow-hidden">
       
-      {/* Hidden Semantic SEO Anchor Block for Crawler Ranking Signals */}
+      {/* Hidden Semantic SEO - Only one H1 in entire page */}
       <div className="sr-only">
-        <h2>Top Dehradun call girls - VIP Dehradun call girl solutions</h2>
+        <h1>Premium Dehradun Call Girls & Escort Service - VIP Companions</h1>
         <p>Book high profile Dehradun call girls and elite independent call girls Dehradun easily. Our agency offers exceptional call girl service in Dehradun for discerning guests.</p>
         <p>Quick access keys: Dehradun call girl number, call girls number in Dehradun, Dehradun call girl WhatsApp number, Dehradun call girl mobile number.</p>
       </div>
 
-      {/* 1. Hero Section */}
+      {/* 1. Hero Section - Main H1 */}
       <section
         id="home"
         className="relative w-full flex items-center justify-center bg-luxury-bg overflow-hidden pt-20 pb-10 sm:py-0 min-h-[600px] lg:min-h-[558px]"
-        aria-label="Hero section"
+        aria-label="Hero section - Dehradun escort service"
       >
         <div className="block sm:hidden absolute inset-0 z-0 bg-[#0a0d14]">
           <div className="absolute top-0 left-0 w-full h-[55vh]">
             <img
               src="/Dehradun%20escort%20service.webp"
-              alt="Premium Dehradun escort service and call girl portal"
+              alt="Premium Dehradun call girls and escort service showcasing top companions"
               className="w-full h-full object-cover object-top"
               referrerPolicy="no-referrer"
               fetchPriority="high"
@@ -57,7 +56,7 @@ export default function Home() {
         <div className="hidden sm:block absolute inset-0 z-0">
           <img
             src="/Top%20Dehradun%20call%20girls.webp"
-            alt="Top Dehradun call girls and exclusive escort service portfolio"
+            alt="Exclusive Dehradun VIP call girls and escort service portfolio"
             className="w-full h-full object-cover object-center"
             referrerPolicy="no-referrer"
             fetchPriority="high"
@@ -78,8 +77,9 @@ export default function Home() {
             className="space-y-4"
           >
             <span className="font-sans text-[10px] sm:text-xs md:text-sm font-black tracking-[0.3em] text-white uppercase block animate-pulse drop-shadow-md">
-              Dehradun'S PREMIER HOSTESS AGENCY
+              DEHRADUN'S PREMIER HOSTESS AGENCY
             </span>
+            {/* MAIN H1 - Only one on page */}
             <h1 className="font-serif text-3xl sm:text-4.5xl md:text-6.5xl font-extrabold text-white leading-tight tracking-tight drop-shadow-lg">
               Premium Dehradun <br className="hidden sm:block" />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-luxury-gold via-yellow-400 to-luxury-gold drop-shadow-sm">
@@ -94,7 +94,7 @@ export default function Home() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="font-sans text-xs sm:text-sm md:text-lg text-zinc-100 max-w-2xl mx-auto font-light leading-relaxed drop-shadow-md px-2"
           >
-            Enjoy luxury seclusion and outstanding hospitality. Just chill and have a special trip from Uttarakhand. Take time out with the highest class of ladies and VIP Dehradun call girls.
+            Enjoy luxury seclusion and outstanding hospitality. Take time out with the highest class of VIP Dehradun call girls and elite companions for a special trip in Uttarakhand.
           </motion.p>
 
           <motion.div
@@ -107,7 +107,7 @@ export default function Home() {
               id="hero-direct-booking"
               href="tel:000000000"
               className="flex items-center justify-center gap-2.5 w-full sm:w-auto min-w-[210px] bg-gradient-to-r from-luxury-gold to-yellow-600 hover:brightness-110 text-black font-sans font-black text-[11px] sm:text-xs uppercase tracking-widest py-4 px-8 rounded-full shadow-xl shadow-luxury-gold/10 hover:shadow-luxury-gold/30 hover:scale-102 transition-all duration-300"
-              aria-label="Call to book Dehradun call girls service"
+              aria-label="Call now to book Dehradun call girls service"
             >
               <Phone className="w-4 h-4 fill-black" aria-hidden="true" />
               <span>Direct Booking</span>
@@ -115,7 +115,7 @@ export default function Home() {
 
             <button
               id="hero-view-gallery"
-              onClick={() => handleScrollToSection('main-gallery')}
+              onClick={() => handleScrollToSection('featured-escorts')}
               className="flex items-center justify-center gap-2.5 w-full sm:w-auto min-w-[210px] bg-[#220810]/70 backdrop-blur-md hover:bg-[#220810]/95 text-white font-sans font-black text-[11px] sm:text-xs uppercase tracking-widest py-4 px-8 rounded-full border border-luxury-gold/25 hover:border-luxury-gold/60 shadow-lg hover:scale-102 transition-all duration-300 cursor-pointer"
               aria-label="View gallery of Dehradun escort profiles"
             >
@@ -126,11 +126,11 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 2. Intro Section */}
+      {/* 2. About Section - H2 */}
       <section
         id="about-intro"
         className="py-20 sm:py-24 bg-zinc-50 text-zinc-900 border-y border-zinc-200 relative"
-        aria-label="About Dehradun escort service"
+        aria-label="About Dehradun luxury escort service"
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
 
@@ -158,9 +158,9 @@ export default function Home() {
             <div className="pt-2">
               <button
                 id="intro-scroll-escorts"
-                onClick={() => handleScrollToSection('main-gallery')}
+                onClick={() => handleScrollToSection('featured-escorts')}
                 className="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-amber-700 hover:text-amber-900 transition-colors duration-200 group cursor-pointer"
-                aria-label="Browse curated Dehradun escort collection"
+                aria-label="Browse curated Dehradun companion collection"
               >
                 <span>Browse our curated collection</span>
                 <span className="transform group-hover:translate-x-1 transition-transform" aria-hidden="true">→</span>
@@ -172,7 +172,7 @@ export default function Home() {
             <div className="relative rounded-2xl overflow-hidden border border-zinc-200 shadow-2xl aspect-[4/3] bg-zinc-200">
               <img
                 src="/Dehradun call girls near me.webp"
-                alt="Elite Suite Hospitality featuring premier Dehradun escort profiles"
+                alt="Luxury hotel suite with Dehradun call girl service for elite clients"
                 className="w-full h-full object-cover object-center filter sepia-[0.1] brightness-95"
                 referrerPolicy="no-referrer"
                 loading="lazy"
@@ -188,15 +188,18 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 3. Featured Profiles Grid Section */}
-      <section id="featured-escorts" className="py-20 sm:py-24 bg-luxury-bg border-b border-luxury-gold/10" aria-label="Featured Dehradun escorts">
+      {/* 3. Featured Profiles - H2 */}
+      <section 
+        id="featured-escorts" 
+        className="py-20 sm:py-24 bg-luxury-bg border-b border-luxury-gold/10" 
+        aria-label="Featured Dehradun escort companions"
+      >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
           <div className="text-center max-w-2xl mx-auto mb-12 sm:mb-16 space-y-4">
             <span className="font-sans text-xs font-bold tracking-[0.3em] text-luxury-gold uppercase block">
               CURATED ESCORT ROSTER
             </span>
-            <div className="sr-only">Featuring verified options for independent call girls Dehradun arrangement.</div>
             <h2 className="font-serif text-3xl sm:text-5xl font-extrabold text-white leading-tight">
               Featured <span className="text-luxury-gold italic">Companions</span>
             </h2>
@@ -265,35 +268,53 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ========================================= */}
-      {/* SEMANTIC SEO ARTICLE BLOCK (SWAPPED CONTENT) */}
-      {/* ========================================= */}
-      <section id="seo-content" className="py-20 bg-luxury-bg border-b border-luxury-gold/10 relative overflow-hidden" aria-label="SEO article about Dehradun escort service">
+      {/* 4. SEO Article Section - Semantic content with proper H2,H3 */}
+      <section 
+        id="seo-content" 
+        className="py-20 bg-luxury-bg border-b border-luxury-gold/10 relative overflow-hidden" 
+        aria-label="Comprehensive guide to Dehradun escort service"
+      >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <article className="bg-[#141925]/60 border border-luxury-gold/20 rounded-3xl p-8 sm:p-12 shadow-2xl text-zinc-300 font-sans text-sm sm:text-base font-light leading-relaxed space-y-6">
-            <h2 className="font-serif text-2xl sm:text-3xl font-bold text-luxury-gold mb-4">Premium Dehradun Call Girls & Escort Service</h2>
+            
+            {/* This is H2 - second level heading */}
+            <h2 className="font-serif text-2xl sm:text-3xl font-bold text-luxury-gold mb-4">
+              Premium Dehradun Call Girls & Escort Service
+            </h2>
             
             <p>Welcome to the best Dehradun call girls in the city. Looking for cute top Dehradun call girl services? A reliable Dehradun escort service. Or perhaps high-class Dehradun escorts. You've come to the right place. The time spent in Dehradun is really special thanks to her. Meetings are different and new every time. More comfortable. It's more personal.</p>
             
             <p>We're known for our honesty and satisfaction. That's what people remember. Whether you need a VIP Dehradun call girl or independent call girls in Dehradun. In Dehradun we have a Russian call girl service. There are many of them available to choose from it.</p>
 
-            <h3 className="font-serif text-xl sm:text-2xl font-bold text-white mt-8 mb-4">Trusted Dehradun Escort Agency</h3>
+            {/* H3 - third level heading */}
+            <h3 className="font-serif text-xl sm:text-2xl font-bold text-white mt-8 mb-4">
+              Trusted Dehradun Escort Agency
+            </h3>
             
             <p>Professionalism is that what our Dehradun escort service stands for. True companionship, privacy, and customer satisfaction. If you want some company for a few hours or the entire evening. We strive to ensure pleasant and luxurious experience.</p>
 
-            <h3 className="font-serif text-xl sm:text-2xl font-bold text-white mt-8 mb-4">100% Private and Confidential Escort Service</h3>
+            {/* H3 */}
+            <h3 className="font-serif text-xl sm:text-2xl font-bold text-white mt-8 mb-4">
+              100% Private and Confidential Escort Service
+            </h3>
             
             <p>Our top priority is always to maintain your privacy and confidentiality. All bookings, discussions, and personal information are kept confidential. Clients can call or WhatsApp us for instant assistance and hassle-free booking.</p>
             
             <p>If you're searching for Dehradun call girls in the area, book your trip ahead of time. Our support team makes the process of booking simple and professional.</p>
 
-            <h3 className="font-serif text-xl sm:text-2xl font-bold text-white mt-8 mb-4">VIP Escort Service in Dehradun</h3>
+            {/* H3 */}
+            <h3 className="font-serif text-xl sm:text-2xl font-bold text-white mt-8 mb-4">
+              VIP Escort Service in Dehradun
+            </h3>
             
             <p>Our VIP escort service in Dehradun is designed for those who are looking for a VIP experience. It's ideal for corporate events and fancy meals. Private events, social events and special outings.</p>
             
             <p>These elegant friends are specially selected. They provide elegant company and memorable experiences for high-profile clients.</p>
 
-            <h3 className="font-serif text-xl sm:text-2xl font-bold text-white mt-8 mb-4">Why Clients Trust Our Dehradun Escort Service</h3>
+            {/* H3 */}
+            <h3 className="font-serif text-xl sm:text-2xl font-bold text-white mt-8 mb-4">
+              Why Clients Trust Our Dehradun Escort Service
+            </h3>
             
             <p>Dehradun is a wonderful city with a lovely climate, good food and nice hotels. Many businessmen. Tourists and locals look for safe and fun escort services in Dehradun. Here is why they choose us:</p>
             
@@ -307,7 +328,10 @@ export default function Home() {
             
             <p>We know that each client is unique. That is why we offer top Dehradun call girls who are cute and friendly. We strive to provide you with a great VIP experience each time.</p>
 
-            <h3 className="font-serif text-xl sm:text-2xl font-bold text-white mt-8 mb-4">What Makes Us Different</h3>
+            {/* H3 */}
+            <h3 className="font-serif text-xl sm:text-2xl font-bold text-white mt-8 mb-4">
+              What Makes Us Different
+            </h3>
             
             <p>In Dehradun, there are plenty of agencies providing Dehradun escort services. What We Have Going for Us:</p>
             
@@ -321,15 +345,22 @@ export default function Home() {
             
             <p>It is a service that is consistent with clients' expectations and they keep coming back. Our out-of-the-ordinary escort service in Dehradun is really luxurious.</p>
             
-            <p>For booking <strong>Dehradun call girls</strong> or <strong>independent call girls Dehradun</strong>, contact our agency today. We offer <strong>VIP Dehradun call girl</strong> service and <strong>high profile Dehradun call girls</strong> for discerning clients. Get the <strong>Dehradun call girl number</strong> or <strong>Dehradun call girl WhatsApp number</strong> by calling us now.</p>
+            <p className="text-zinc-200 font-medium">
+              For booking <strong className="text-luxury-gold">Dehradun call girls</strong> or <strong className="text-luxury-gold">independent call girls Dehradun</strong>, contact our agency today. We offer <strong className="text-luxury-gold">VIP Dehradun call girl</strong> service and <strong className="text-luxury-gold">high profile Dehradun call girls</strong> for discerning clients. Get the <strong className="text-luxury-gold">Dehradun call girl number</strong> or <strong className="text-luxury-gold">Dehradun call girl WhatsApp number</strong> by calling us now.
+            </p>
           </article>
         </div>
       </section>
 
-      {/* COMPANION DETAILED MODAL SHEET */}
+      {/* MODAL - COMPANION DETAIL */}
       <AnimatePresence>
         {selectedEscort && (
-          <div className="fixed inset-0 z-50 flex items-center justify-center p-4" role="dialog" aria-modal="true" aria-label={`Profile of ${selectedEscort.name}`}>
+          <div 
+            className="fixed inset-0 z-50 flex items-center justify-center p-4" 
+            role="dialog" 
+            aria-modal="true" 
+            aria-label={`${selectedEscort.name} - Dehradun escort profile`}
+          >
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
@@ -349,7 +380,7 @@ export default function Home() {
               <div className="relative h-72 md:h-full min-h-[320px] bg-zinc-950">
                 <img
                   src={selectedEscort.image}
-                  alt={`${selectedEscort.name} - Detailed profile`}
+                  alt={`${selectedEscort.name} - Detailed profile of Dehradun call girl`}
                   className="absolute inset-0 w-full h-full object-cover object-center filter sepia-[0.1]"
                   referrerPolicy="no-referrer"
                 />
@@ -359,7 +390,7 @@ export default function Home() {
                   className="md:hidden absolute top-4 right-4 bg-black/60 text-white p-2.5 rounded-full border border-white/20"
                   aria-label="Close profile"
                 >
-                  <X className="w-4 h-4" />
+                  <X className="w-4 h-4" aria-hidden="true" />
                 </button>
               </div>
 
@@ -369,7 +400,7 @@ export default function Home() {
                   className="absolute top-6 right-6 bg-luxury-card hover:bg-[#20273a] text-zinc-400 p-2 rounded-full border border-luxury-gold/25 hover:text-luxury-gold transition-colors hidden md:block cursor-pointer"
                   aria-label="Close profile"
                 >
-                  <X className="w-4 h-4" />
+                  <X className="w-4 h-4" aria-hidden="true" />
                 </button>
 
                 <div className="space-y-6">
